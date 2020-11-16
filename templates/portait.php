@@ -5,9 +5,11 @@
 ?>
 
 <?php $title = get_field('title');
-  echo $title;?>
+  echo $title;
+?>
 <h2><?php the_field('title'); ?></h2>
 
 <?php
-get_footer();
+  get_footer();
+  wp_footer();
 ?>
