@@ -15,5 +15,5 @@
     wp_enqueue_style( 'footer');
 
   }
-  add_action( 'wp_enqueue_scripts', 'load_files' );
+  add_action( 'wp_enqueue_style', 'load_files' );
 ?>
