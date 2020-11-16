@@ -4,6 +4,11 @@
   */
 ?>
 
+<?php
+  get_header();
+  wp_head();
+?>
+
 <?php $title = get_field('title');
   echo $title;
 ?>
