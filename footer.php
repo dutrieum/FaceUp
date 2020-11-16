@@ -1,5 +1,5 @@
+
 <footer>
-  <link type="text/css" rel="stylesheet" href="assets/css/footer.css"/>
 
 
 <h2><?php the_field('address', 'option'); ?></h2>
