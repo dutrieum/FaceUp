@@ -1,5 +1,9 @@
+<?php
+  get_header();
+  wp_head();
+?>
+
 <main>
-  <img src="assets/img/logo.svg" alt="Website logo"></img>
 </main>
 
 <?php
