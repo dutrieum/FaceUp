@@ -22,8 +22,8 @@
   }
 
   function load_files() {
-    wp_register_style( 'footer', get_template_directory_uri() . 'assets/css/footer.css', array(), '1.1', 'all');
-    wp_enqueue_style( 'footer');
+    wp_enqueue_style( 'style', get_stylesheet_uri() );
+    wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css', array(), '1.1');
   }
   add_action( 'wp_enqueue_style', 'load_files' );
 ?>
