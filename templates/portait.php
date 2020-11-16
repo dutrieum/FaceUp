@@ -1,3 +1,10 @@
-<?php get_field('Title'): ?>
-    <h2><?php echo the_field('Title'); ?></h2>
+<?php
+  /*
+    Template Name: Portrait
+  */
+?>
+
+<?php $title = get_field('title');
+  echo $title;?>
+<h2><?php the_field('title'); ?></h2>
 <?php ?>
