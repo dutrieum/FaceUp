@@ -6,5 +6,5 @@
   </head>
   <body>
     <header>
-      <img src="assets/img/logo.svg" alt="Website logo"></img>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Website logo"></img>
     </header>
