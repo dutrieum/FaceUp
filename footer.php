@@ -1,9 +1,21 @@
     <footer>
-      <h2><?php the_field('address', 'option'); ?></h2>
-      <h2><?php the_field('phone', 'option'); ?></h2>
-      <h2><?php the_field('email', 'option'); ?></h2>
-      <h2><?php $mentions = get_field('mentions', 'option');?></h2>
-      <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
+      <div class="wrap_footer">
+        <div id="contact">
+          <p><?php the_field('address', 'option'); ?></p>
+          <p><?php the_field('phone', 'option'); ?></p>
+          <p><?php the_field('email', 'option'); ?></p>
+          <p><?php $mentions = get_field('mentions', 'option');?></p>
+        </div>
+        <div id="social">
+          <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
+          <div>
+            <img id="insta" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="Instagram logo">
+          </div>
+        </div>
+        <div id="meeting">
+          <p>PRENDRE RENDEZ-VOUS</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

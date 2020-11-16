@@ -1,3 +1,48 @@
 footer {
   background-color: #FFC107;
+  padding-top: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrap_footer {
+  margin: 0 auto 0 auto;
+	max-width: 1200px;
+	padding: 0 250px;
+  display: flex;
+}
+
+.wrap_footer p {
+  color: white;
+  font-family: 'Inria Serif', serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+div#social {
+  margin: auto;
+}
+
+div#social a {
+  font-size: 20px;
+}
+
+img#insta {
+  width: 20%;
+  padding-top: 20px;
+}
+
+div#meeting p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1pt solid white;
+  border-radius: 30px;
+  margin-top: 5%;
 }
