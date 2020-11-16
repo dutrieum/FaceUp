@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
+  
 <footer>
-  <link type="text/css" rel="stylesheet" href="assets/css/footer.css"/>
 
 
 <h2><?php the_field('address', 'option'); ?></h2>
@@ -12,4 +10,3 @@
 <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
 
 </footer>
-</html>
