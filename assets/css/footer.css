@@ -10,16 +10,16 @@ a {
 
 .wrap_footer {
   margin: 0 auto 0 auto;
-	max-width: 1200px;
-	padding: 0 250px;
+	max-width: 100%;
+	padding: 0 8%;
   display: flex;
 }
 
 .wrap_footer p {
   color: white;
   font-family: 'Inria Serif', serif;
-  font-size: 18px;
-  padding-bottom: 20px;
+  font-size: 15px;
+  padding-bottom: 10%;
 }
 
 div#social {
@@ -32,5 +32,7 @@ div#social a {
 
 img#insta {
   width: 20%;
-  padding-top: 20px;
+  display: block;
+  margin: auto;
+  padding-top: 8%;
 }
