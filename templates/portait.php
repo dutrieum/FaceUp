@@ -9,10 +9,10 @@
   wp_head();
 ?>
 
-<?php $title = get_field('title');
-  echo $title;
+<?php $portrait = get_field('portrait');
+  echo $portrait;
 ?>
-<h2><?php the_field('title'); ?></h2>
+<h2><?php the_field('portrait'); ?></h2>
 
 <?php
   get_footer();
