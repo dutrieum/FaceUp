@@ -14,7 +14,7 @@
           </div>
         </div>
         <div id="meeting">
-          <a href="<?php echo(get_permalink($button->ID)); ?>">Prendre rendez-vous</a>
+          <a href="<?php echo(get_permalink($button->ID)); ?>">PRENDRE RENDEZ-VOUS</a>
         </div>
     </footer>
   </body>

@@ -41,4 +41,12 @@ img#insta {
 div#meeting a {
   font-size: 12px;
   font-family: 'Josefin Sans',bold;
+  border: solid 1pt;
+  border-radius: 30px;
+  padding: 21px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+div#meeting {
+  padding-top: 4%;
 }
