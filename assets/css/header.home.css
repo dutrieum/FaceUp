@@ -1,0 +1,12 @@
+body.front-page header {
+  background-color: black;
+}
+
+body.front-page svg path {
+   fill: #FFFFFF;
+}
+
+body.front-page .menu a {
+  color: white;
+  border-right: 1pt solid white;
+}
