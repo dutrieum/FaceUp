@@ -4,17 +4,58 @@ div#title h1 {
   font-family: 'Josefin Sans',bold;
   font-size: 75px;
   padding: 5% 22%;
-
 }
-img#etapes {
-  display: block;
-  width: 40%;
+div.child.text h2{
+  font-family: 'Josefin Sans', serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 13%
 }
-div#etape h2{
-  font-family: 'Josefin Sans',semi-bold;
+div.child.text p{
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
   font-size: 20px;
+  margin-top: 5%;
+  line-height:32px;
 }
-div#etape p{
-  font-family: 'Inria Serif', light;
-  font-size: 15px;
+div.child.photo img{
+  display:block;
+  width: 100%;
+}
+div.wrap {
+  margin: 0 auto;
+  max-width: 1700px;
+  padding: 0 8%;
+}
+
+div.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+div.child.text {
+  width: 43%;
+  padding-left: 30px
+}
+
+div.child.photo {
+  width: 49%;
+}
+div.child.bouton a {
+  text-decoration: none;
+  color: #FFC107;
+  font-family: 'Josefin sans', serif;
+  font-weight: 700;
+  font-size: 13px;
+  border: solid 1pt;
+  border-radius: 30px;
+  padding: 21px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+div.child.bouton {
+  width: 50%;
 }
