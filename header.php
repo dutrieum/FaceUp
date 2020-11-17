@@ -12,6 +12,6 @@
   </head>
   <body>
     <header>
-      <a href="<?php echo home_url( '/' ); ?>"><img class="logotype" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Website logo"></img></a>
+      <a href="<?php echo home_url( '/' ); ?>"><img class="logotype" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_black.svg" alt="Website logo"></img></a>
       <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
     </header>

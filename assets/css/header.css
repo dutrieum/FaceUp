@@ -2,6 +2,10 @@ header {
   background-color: white;
 }
 
+header a {
+  font-family: 'Inria Serif', serif;
+}
+
 .logotype {
   width: 20%;
   display: block;
@@ -17,19 +21,39 @@ header {
   color: black;
   border-right: 1pt solid black;
   padding-right: 24px;
-  padding-left: 24px
+  padding-left: 24px;
 }
 
-li#menu-item-70 {
-  border-right: none;
+li#menu-item-70 a {
+  border: none;
+}
+
+li#menu-item-59 a, li#menu-item-60 a, li#menu-item-64 a, li#menu-item-65 a {
+  border-bottom: 1pt solid #FFC107;
+  width: 5%;
+  padding-bottom: 12px;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  position: relative;
 }
 
 ul .sub-menu {
   display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+ul .sub-menu a {
+  border: none;
+  justify-content: center;
+  padding: auto;
+  width: 100%;
+  line-height: 32pt;
+  font-size: 14px;
 }
 
 ul li:hover .sub-menu {
