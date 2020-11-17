@@ -1,0 +1,39 @@
+.presentation {
+  margin: 0 auto 0 auto;
+	max-width: 100%;
+	padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentation p {
+  color: black;
+  font-family: 'Inria Serif', serif;
+  font-size: 15px;
+  padding-bottom: 10%;
+}
+
+div#texte p {
+  font-size: 20px;
+  font-family: 'Inria Serif', serif;
+  text-align: center;
+}
+
+img#claire {
+  width: 17%;
+  display: block;
+  margin: auto;
+  padding-top: 8%;
+}
+div#meeting a {
+  font-size: 12px;
+  font-family: 'Josefin Sans',bold;
+  border: solid 1pt;
+  border-radius: 30px;
+  padding: 21px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+div#meeting {
+  padding-top: 4%;
+}

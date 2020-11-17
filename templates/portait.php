@@ -11,27 +11,22 @@
 
 <?php $portrait = get_field('portrait');
   echo $portrait;
-
-
-$claire = get_field('claire');
-  echo $claire;
-
-
-$subtitle = get_field('subtitle');
-  echo $subtitle;
-
-
-$description1 = get_field('description1');
-  echo $description1;
-
-
-$description2 = get_field('description2');
-  echo $description2;
-
-
-$description3 = get_field('description3');
-  echo $description3;
 ?>
+
+
+<portrait>
+  <div class="presentation">
+  <div id="photo">
+    <div>
+      <img id="claire" src="<?php echo get_template_directory_uri(); ?>/assets/img/claire.png" alt="Photo Claire">
+  <div id="texte">
+    <p><?php the_field('claire'); ?></p>
+    <p><?php the_field('subtitle'); ?></p>
+    <p><?php the_field('description1'); ?></p>
+  </div>
+  </div>
+  </div>
+</portrait>
 
 <?php
   get_footer();
