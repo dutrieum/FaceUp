@@ -5,6 +5,7 @@
           <p><?php the_field('phone', 'option'); ?></p>
           <p><?php the_field('email', 'option'); ?></p>
           <p><?php $mentions = get_field('mentions', 'option');?></p>
+          <p><?php $button = get_field('button', 'option');?></p>
         </div>
         <div id="social">
           <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
@@ -13,9 +14,8 @@
           </div>
         </div>
         <div id="meeting">
-
+          <a href="<?php echo(get_permalink($button->ID)); ?>">Prendre rendez-vous</a>
         </div>
-      </div>
     </footer>
   </body>
 </html>
