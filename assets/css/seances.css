@@ -1,0 +1,25 @@
+h1 {
+  color: #FFC107;
+  text-align: center;
+  font-family: 'Josefin Sans',bold;
+  font-size: 72px;
+  padding: 5% 20%;
+}
+img#etapes {
+  width: 40%;
+}
+.wrap_seances{
+  margin: 0 auto 0 auto;
+	max-width: 100%;
+	padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+  font-family: 'Josefin Sans',bold;
+  font-size: 20px;
+}
+h2{
+  font-family: 'Inria Serif';
+  font-size: 15px;
+}
