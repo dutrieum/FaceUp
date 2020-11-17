@@ -1,6 +1,5 @@
 <?php
   get_header();
-  wp_head();
 ?>
 
 <main>
@@ -8,5 +7,4 @@
 
 <?php
   get_footer();
-  wp_footer();
 ?>

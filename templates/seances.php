@@ -6,7 +6,6 @@
 
 <?php
   get_header();
-  wp_head();
 ?>
 
     <h1><?php the_field('title'); ?></h1>
@@ -21,5 +20,4 @@
 
 <?php
   get_footer();
-  wp_footer();
 ?>

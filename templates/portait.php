@@ -6,7 +6,6 @@
 
 <?php
   get_header();
-  wp_head();
 ?>
 
 <div class="bloc1">
@@ -40,5 +39,4 @@
 
 <?php
   get_footer();
-  wp_footer();
 ?>

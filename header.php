@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <?php
-  wp_head();
   global $template;
   $template_name = basename($template, '.php');
 ?>
@@ -13,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
+  <?php wp_head(); ?>
   </head>
   <body>
     <div class="container" data-plat-namespace="<?php echo($template_name); ?>">
