@@ -12,3 +12,26 @@ header {
 #wpadminbar {
   display: none;
 }
+
+.menu a {
+  color: black;
+  border-right: 1pt solid black;
+  padding-right: 24px;
+  padding-left: 24px
+}
+
+li#menu-item-70 {
+  border-right: none;
+}
+
+.menu {
+  display: flex;
+}
+
+ul .sub-menu {
+  display: none;
+}
+
+ul li:hover .sub-menu {
+   display: block;
+}
