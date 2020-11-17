@@ -14,10 +14,8 @@
       <p><?php the_field('portrait');?></p>
     </div>
 
-    <div id="photo">
-      <div>
-        <img id="claire" src="<?php echo get_template_directory_uri(); ?>/assets/img/claire.png" alt="Photo Claire">
-      </div>
+    <div class="photo">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/claire.png" alt="Photo Claire">
     </div>
 
     <div class="texte">

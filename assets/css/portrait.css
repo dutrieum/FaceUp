@@ -1,9 +1,8 @@
 div.texte {
-  max-width: 1212px;
-  padding-left: 114px;
-  padding-right: 114px;
+  width: 50%;
   margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 div.bloc1 {
@@ -20,29 +19,42 @@ div.presentation {
 }
 
 div#titre {
-  font-size: 75px;
+  font-size: 72px;
   font-family: 'Josefin Sans', bold;
   padding: 50px;
   color: #FFC107;
   text-align: center;
   width: 100%;
 }
-img#claire {
+
+div.photo {
+  width: calc(50% - 168px);
+}
+
+div.photo img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 div#texte1 {
-  font-size: 13px;
-  font-family: 'Josefin Sans',semi bold;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
 }
 
 div#texte2 {
-  font-size: 13px;
-  font-family: 'Inria Serif',light;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
 }
 
 div#texte3 {
-  font-size: 13px;
-  font-family: 'Inria Serif',light;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
 
 }
