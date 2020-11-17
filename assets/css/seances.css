@@ -16,10 +16,10 @@ img#etapes {
   justify-content: space-between;
 }
 h2{
-  font-family: 'Josefin Sans',bold;
+  font-family: 'Josefin Sans',semi-bold;
   font-size: 20px;
 }
-h2{
-  font-family: 'Inria Serif';
+p{
+  font-family: 'Inria Serif', light;
   font-size: 15px;
 }
