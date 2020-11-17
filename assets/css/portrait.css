@@ -1,3 +1,11 @@
+div.texte {
+  max-width: 1212px;
+  padding-left: 114px;
+  padding-right: 114px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.bloc1 {
   max-width: 1212px;
   padding-left: 114px;
@@ -12,7 +20,7 @@ div.presentation {
 }
 
 div#titre {
-  font-size: 72px;
+  font-size: 75px;
   font-family: 'Josefin Sans', bold;
   padding: 50px;
   color: #FFC107;
