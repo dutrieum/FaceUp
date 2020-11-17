@@ -28,4 +28,8 @@
     wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css', array(), '1.1');
   }
   add_action( 'wp_enqueue_scripts', 'load_files' );
+
+  register_nav_menus( array(
+	   'main' => 'Menu Principal',
+  ) );
 ?>
