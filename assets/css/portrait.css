@@ -1,7 +1,40 @@
+div.bloc1 {
+  max-width: 1212px;
+  padding-left: 114px;
+  padding-right: 114px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+div.presentation {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+div#titre {
+  font-size: 72px;
+  font-family: 'Josefin Sans', bold;
+  padding: 50px;
+  color: #FFC107;
+  text-align: center;
+  width: 100%;
+}
 img#claire {
-  width: 17%;
   display: block;
-  margin: auto;
-  padding-top: 8%;
+}
+
+div#texte1 {
+  font-size: 13px;
+  font-family: 'Josefin Sans',semi bold;
+}
+
+div#texte2 {
+  font-size: 13px;
+  font-family: 'Inria Serif',light;
+}
+
+div#texte3 {
+  font-size: 13px;
+  font-family: 'Inria Serif',light;
+
 }
