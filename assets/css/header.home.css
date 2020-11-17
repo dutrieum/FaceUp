@@ -10,3 +10,8 @@ body.front-page .menu a {
   color: white;
   border-right: 1pt solid white;
 }
+
+body.front-page ul .sub-menu a {
+  border: none;
+  justify-content: center;
+}
