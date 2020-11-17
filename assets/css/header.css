@@ -18,8 +18,8 @@ header a {
 }
 
 .menu a {
-  color: black;
-  border-right: 1pt solid black;
+  color: #FFC107;
+  border-right: 1pt solid #FFC107;
   padding-right: 24px;
   padding-left: 24px;
 }
@@ -28,16 +28,21 @@ li#menu-item-70 a {
   border: none;
 }
 
-li#menu-item-59 a, li#menu-item-60 a, li#menu-item-64 a, li#menu-item-65 a {
-  border-bottom: 1pt solid #FFC107;
-  width: 5%;
+li#menu-item-59, li#menu-item-60, li#menu-item-64, li#menu-item-65 {
+  border-bottom: 1px solid #FFC107;
+  text-align: center;
   padding-bottom: 12px;
+  padding: 0 8px;
 }
 
 .menu {
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
+  position: relative;
+}
+
+ul li {
   position: relative;
 }
 
@@ -50,10 +55,15 @@ ul .sub-menu {
 ul .sub-menu a {
   border: none;
   justify-content: center;
-  padding: auto;
-  width: 100%;
-  line-height: 32pt;
+  width: 10%;
+  line-height: 25pt;
   font-size: 14px;
+  padding: 0 10px;
+}
+
+ul .sub-menu li {
+  padding: 0 8px;
+  text-align: center;
 }
 
 ul li:hover .sub-menu {
