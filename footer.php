@@ -13,7 +13,6 @@
           </div>
         </div>
         <div id="meeting">
-          <p>PRENDRE RENDEZ-VOUS</p>
         </div>
       </div>
     </footer>
