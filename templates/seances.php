@@ -39,7 +39,7 @@
           <p><?php the_field('author_citation'); ?></p>
         </div>
       </div>
-      <div class="parent seances3">
+      <div class="parent seances">
         <div class="child text seances">
           <h2><?php the_field('little_title3'); ?></h2>
           <p><?php the_field('text3'); ?></p>
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="parent seances3">
+      <div class="parent seances">
         <div class="child text seances">
           <h2 class="text"><?php the_field('little_text6'); ?></h2>
           <p><?php the_field('text6'); ?></p>

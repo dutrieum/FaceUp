@@ -13,7 +13,6 @@ div.child.text.seances h2{
   font-family: 'Josefin Sans', serif;
   font-weight: 600;
   font-size: 32px;
-  margin-top: 13%
 }
 div.child.text.seances p{
   font-family: 'Inria Serif', serif;
@@ -35,25 +34,19 @@ div.parent.seances {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-div.parent.seances3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 4%;
-}
-h2.text{
-  margin-top: 4%;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 div.child.text.seances {
   width: 43%;
   padding-left: 30px;
-  margin-bottom:5%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-
 div.child.photo.seances {
   width: 49%;
-  margin-bottom:5%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 div.child.text.seances a {
   text-transform:uppercase;
@@ -88,9 +81,9 @@ div.citation.seances p{
 }
 div.ligne.seances{
   border-left: 6px solid #FEA31E;
-max-width:1000px;
-margin-left: auto;
-margin-right: auto;
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.citation.seances{
   position :relative;
