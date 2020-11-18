@@ -1,9 +1,17 @@
 header {
-  background-color: #FFF6E5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
 }
 
 html {
   background-color: #FFF6E5;
+}
+
+body {
+  position: relative;
 }
 
 header a {
@@ -14,7 +22,8 @@ svg {
   width: 15%;
   display: block;
   margin: auto;
-  padding-bottom: 2%
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 #wpadminbar {
@@ -44,6 +53,7 @@ li#menu-item-59, li#menu-item-60, li#menu-item-64, li#menu-item-65 {
   justify-content: center;
   margin-bottom: 2%;
   position: relative;
+  z-index: 6;
 }
 
 ul li {

@@ -4,5 +4,7 @@ var flkty = new Flickity( elem, {
   cellAlign: 'left',
   contain: true,
   autoPlay: true,
-  wrapAround: true
+  wrapAround: true,
+  cellSelector: '.carousel-cell',
+  prevNextButtons: false
 });

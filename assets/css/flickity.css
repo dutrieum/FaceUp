@@ -117,6 +117,7 @@ https://flickity.metafizzy.co
   list-style: none;
   text-align: center;
   line-height: 1;
+  z-index: 3;
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }
@@ -126,7 +127,7 @@ https://flickity.metafizzy.co
   width: 10px;
   height: 10px;
   margin: 0 8px;
-  background: #333;
+  background: white;
   border-radius: 50%;
   opacity: 0.25;
   cursor: pointer;
@@ -134,9 +135,4 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
-}
-
-.carousel-cell {
-  width: 100%; /* full width */
-  height: 800px; /* height of carousel */
 }
