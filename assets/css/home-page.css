@@ -1,0 +1,54 @@
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 800px; /* height of carousel */
+}
+
+.carousel-cell img {
+  width: 100%;
+}
+
+.main-carousel:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .static_text_slider {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  color: #FEA31E;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  margin-top: 315px;
+}
+
+.slider .static_button_slider a {
+  position: absolute;
+  color: #FEA31E;
+  font-size: 18px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  border: solid 2px;
+  border-radius: 30px;
+  z-index: 3;
+  padding: 21px;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin: auto;
+  margin-top: 555px;
+  margin-left: calc( 50% - 100px );
+  background-color: rgba(255, 255, 255, 0.4);
+}

@@ -5,10 +5,17 @@
 ?>
 
 <main>
-  <div class="main-carousel">
-    <?php foreach( $images as $image ): ?>
-      <div class="carousel-cell"><img src="<?php echo wp_get_attachment_image( $image['url'], 'slider-size' ); ?>" alt="<?php echo esc_attr($image['alt']); ?>"/></div>
-    <?php endforeach; ?>
+  <div class="slider">
+    <div class="main-carousel">
+      <div class="static_text_slider"><?php the_field('slider_text'); ?></div>
+      <div class="static_button_slider"><a href="<?php echo(get_permalink($button->ID)); ?>">DÉCOUVRIR</a></div>
+      <?php foreach( $images as $image ): ?>
+        <div class="carousel-cell"><img src="<?php echo($image['sizes']['slider-size']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"/></div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+  <div class="method_front_page">
+    <img src="<?php echo(get_field('first_picture_front_page')['url']); ?>"/>
   </div>
 </main>
 
