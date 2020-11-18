@@ -52,6 +52,11 @@
     </div>
 </div>
 
+<div class="citation_portrait">
+  <p><?php the_field('quote'); ?></p>
+</div>
+
+
 
 
 <?php

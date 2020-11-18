@@ -71,13 +71,14 @@ div.text2_portrait {
 
 div.bloc2_portrait {
   max-width: 1212px;
-  padding-left: 114px;
-  padding-right: 114px;
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid #FEA31E;
   margin-top: 88px;
   padding-top: 88px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FEA31E;
+  padding-bottom: 88px;
 }
 
 div.presentation2_portrait {
@@ -104,4 +105,38 @@ div#text4_portrait {
   font-weight: 300;
 
 
+}
+
+div.citation_portrait p{
+  font-family:'Josefin Sans';
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 32px;
+  border-left: 6px solid #FEA31E;
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+
+div.citation_portrait {
+  position:relative;
+  padding-top: 97px;
+  border-bottom: 1px solid #FEA31E;
+  margin-top: 88px;
+  padding-bottom: 80px;
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.citation_portrait:before{
+  content:'“ ”';
+  display:block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
 }
