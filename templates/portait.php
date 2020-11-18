@@ -54,8 +54,17 @@
 
 <div class="citation_portrait">
   <p><?php the_field('quote'); ?></p>
+    <div class="button_portrait">
+        <a href="<?php echo(get_permalink($button->ID)); ?>">voir tous les témoignages</a>
+    </div>
 </div>
 
+<div class="formation_portrait">
+  <p><?php the_field('formation'); ?></p>
+    <div class="button_portrait">
+      <a href="<?php echo(get_permalink($button->ID)); ?>">se former</a>
+    </div>
+</div>
 
 
 
