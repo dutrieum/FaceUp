@@ -1,5 +1,9 @@
 header {
-  background-color: white;
+  background-color: #FFF6E5;
+}
+
+html {
+  background-color: #FFF6E5;
 }
 
 header a {
@@ -7,7 +11,7 @@ header a {
 }
 
 svg {
-  width: 20%;
+  width: 15%;
   display: block;
   margin: auto;
   padding-bottom: 2%
@@ -18,8 +22,8 @@ svg {
 }
 
 .menu a {
-  color: #FFC107;
-  border-right: 1pt solid #FFC107;
+  color: #FEA31E;
+  border-right: 1pt solid #FEA31E;
   padding-right: 24px;
   padding-left: 24px;
 }
@@ -29,7 +33,7 @@ li#menu-item-70 a {
 }
 
 li#menu-item-59, li#menu-item-60, li#menu-item-64, li#menu-item-65 {
-  border-bottom: 1px solid #FFC107;
+  border-bottom: 1px solid #FEA31E;
   text-align: center;
   padding-bottom: 12px;
   padding: 0 8px;
