@@ -121,7 +121,7 @@ div.citation_portrait p{
 
 div.citation_portrait {
   position:relative;
-  padding-top: 97px;
+  padding-top: 60px;
   border-bottom: 1px solid #FEA31E;
   margin-top: 88px;
   padding-bottom: 80px;
@@ -132,11 +132,22 @@ div.citation_portrait {
 }
 
 div.citation_portrait:before{
-  content:'“ ”';
+  content :'“';
   display:block;
   position: absolute;
-  left: 0;
-  top: 0;
-  font-family: 'Josefin Sans';
+  left: 40px;
+  top:50px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+  font-size: 100px;
+}
+div.citation_portrait:after{
+  content :'”';
+  display:block;
+  position: absolute;
+  left: 555px;
+  top:310px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
 }
