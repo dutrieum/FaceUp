@@ -75,6 +75,9 @@ div.bloc2_portrait {
   padding-right: 114px;
   margin-left: auto;
   margin-right: auto;
+  border-top: 1px solid #FEA31E;
+  margin-top: 88px;
+  padding-top: 88px;
 }
 
 div.presentation2_portrait {
@@ -99,5 +102,6 @@ div#text4_portrait {
   line-height: 32px;
   font-family: 'Inria Serif';
   font-weight: 300;
+
 
 }
