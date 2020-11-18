@@ -1,27 +1,27 @@
 
 
-div.wrap {
+div.wrap_presentation {
 	margin: 0 auto;
 	max-width: 700px;
 	padding: 0 32px;
 }
 
-div.parent {
+div.parent_presentation {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 32px;
 }
 
-div.child {
+div.child_presentation {
 	background-color: red;
 	height: 200px;
 }
 
-div.child.text {
+div.child.text_presentation {
 	width: 50%;
 }
 
-div.child.photo {
+div.child.photo_presentation {
 	width: 40%;
 }
