@@ -16,6 +16,7 @@
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css', array(), '1.1');
     wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css', array(), '1.1');
     wp_enqueue_style( 'portrait', get_template_directory_uri() . '/assets/css/portrait.css', array(), '1.1');
+    wp_enqueue_style( 'presentation', get_template_directory_uri() . '/assets/css/presentation.css', array(), '1.1');
     wp_enqueue_style( 'seances', get_template_directory_uri() . '/assets/css/seances.css', array(), '1.1');
     wp_enqueue_style( 'header.home', get_template_directory_uri() . '/assets/css/header.home.css', array(), '1.1');
     wp_enqueue_style( 'flickity', get_template_directory_uri() . '/assets/css/flickity.css', array(), '1.1');
