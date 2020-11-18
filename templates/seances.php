@@ -11,7 +11,7 @@
     <div id="title_seances">
       <h1><?php the_field('title'); ?></h1>
     </div>
-
+    
     <div class="wrap seances">
 			<div class="parent seances">
 				<div class="child photo seances">
@@ -49,7 +49,6 @@
           <p><?php the_field('text4'); ?></p>
         </div>
       </div>
-
       <div class="parent seances">
         <div class="child photo seances">
         <img src="<?php echo(get_field('picture3')['url']); ?>"/>
@@ -59,7 +58,6 @@
           <p><?php the_field('text5'); ?></p>
         </div>
       </div>
-
       <div class="parent seances">
         <div class="child text seances">
           <h2 class="text"><?php the_field('little_text6'); ?></h2>
@@ -69,12 +67,7 @@
         <img src="<?php echo(get_field('picture4')['url']); ?>"/>
         </div>
       </div>
-
-
-
-
     </div>
-
 
 <?php
   get_footer();
