@@ -84,7 +84,7 @@ div.presentation2_portrait {
 
 
 div.photo2_portrait {
-  width: calc(50% - 168px);
+  width: calc(50% - 32px);
 }
 
 div.photo2_portrait img {
