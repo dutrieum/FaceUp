@@ -46,7 +46,7 @@ div.child.text.seances {
 div.child.photo.seances {
   width: 49%;
 }
-div.child.bouton.seances a {
+div.child.text.seances a {
   text-decoration: none;
   color: #FFC107;
   font-family: 'Josefin sans', serif;
@@ -58,8 +58,3 @@ div.child.bouton.seances a {
   padding-right: 32px;
   padding-left: 32px;
 }
-
-div.child.bouton.seances {
-  width: 50%;
-  display: block;
-  margin: auto;

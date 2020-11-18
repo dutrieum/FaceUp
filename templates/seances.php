@@ -26,10 +26,8 @@
         <div class="child text seances">
           <h2><?php the_field('little_title2'); ?></h2>
           <p><?php the_field('text2'); ?></p>
-        </div>
-        <div class="child bouton seances">
-        <p><?php $button = get_field('button');?></p>
-        <a href="<?php echo(get_permalink($button->ID)); ?>">VOIR LES RÉSULTATS</a>
+          <p><?php $button = get_field('button');?></p>
+          <a href="<?php echo(get_permalink($button->ID)); ?>">VOIR LES RÉSULTATS</a>
         </div>
 				<div class="child photo seances">
         <img src="<?php echo(get_field('picture2')['url']); ?>"/>
