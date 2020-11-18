@@ -26,8 +26,8 @@
         <div class="child text seances">
           <h2><?php the_field('little_title2'); ?></h2>
           <p><?php the_field('text2'); ?></p>
-          <p><?php $button = get_field('button');?></p>
-          <a href="<?php echo(get_permalink($button->ID)); ?>">VOIR LES RÉSULTATS</a>
+          <p><?php $button_seances = get_field('button_seances');?></p>
+          <a href="<?php echo(get_permalink($button_seances->ID)); ?>">Voir les résultats</a>
         </div>
 				<div class="child photo seances">
         <img src="<?php echo(get_field('picture2')['url']); ?>"/>
@@ -39,6 +39,40 @@
           <p><?php the_field('author_citation'); ?></p>
         </div>
       </div>
+      <div class="parent seances3">
+        <div class="child text seances">
+          <h2><?php the_field('little_title3'); ?></h2>
+          <p><?php the_field('text3'); ?></p>
+        </div>
+        <div class="child text seances">
+          <h2><?php the_field('little_title4'); ?></h2>
+          <p><?php the_field('text4'); ?></p>
+        </div>
+      </div>
+
+      <div class="parent seances">
+        <div class="child photo seances">
+        <img src="<?php echo(get_field('picture3')['url']); ?>"/>
+        </div>
+        <div class="child text seances">
+          <h2><?php the_field('little_title5'); ?></h2>
+          <p><?php the_field('text5'); ?></p>
+        </div>
+      </div>
+
+      <div class="parent seances3">
+        <div class="child text seances">
+          <h2 class="text"><?php the_field('little_text6'); ?></h2>
+          <p><?php the_field('text6'); ?></p>
+        </div>
+        <div class="child photo seances">
+        <img src="<?php echo(get_field('picture4')['url']); ?>"/>
+        </div>
+      </div>
+
+
+
+
     </div>
 
 

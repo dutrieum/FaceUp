@@ -66,6 +66,12 @@
     </div>
 </div>
 
+<div class="instagram_portrait">
+<h2><?php the_field('follow'); ?></h2>
+<p><?php the_field('instagram'); ?></p>
+
+</div>
+
 
 
 <?php
