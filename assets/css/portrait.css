@@ -59,3 +59,45 @@ div#text3_portrait {
   font-weight: 300;
 
 }
+
+
+
+div.text2_portrait {
+  width: 50%;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.bloc2_portrait {
+  max-width: 1212px;
+  padding-left: 114px;
+  padding-right: 114px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.presentation2_portrait {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+div.photo2_portrait {
+  width: calc(50% - 168px);
+}
+
+div.photo2_portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+div#text4_portrait {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
+
+}

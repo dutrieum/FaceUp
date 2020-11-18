@@ -15,7 +15,7 @@
     </div>
 
     <div class="photo_portrait">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/claire.png" alt="Photo Claire">
+      <img src="<?php echo(get_field('photo_portrait')['url']); ?>"/>
     </div>
 
     <div class="text_portrait">
@@ -35,6 +35,22 @@
   </div>
 </div>
 
+
+<div class="bloc2_portrait">
+  <div class="presentation2_portrait">
+
+    <div class="photo2_portrait">
+      <img src="<?php echo(get_field('photo2_portrait')['url']); ?>"/>
+    </div>
+    
+      <div class="text2_portrait">
+      <div id="text4_portrait">
+        <p><?php the_field('description2'); ?></p>
+      </div>
+
+  </div>
+</div>
+</div>
 
 
 
