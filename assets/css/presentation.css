@@ -24,7 +24,6 @@ div.parent_presentation {
 
 div img.img_presentation {
   width : 100%;
-
 }
 
 div.wrap_presentation {
@@ -62,12 +61,10 @@ div.child_textp {
   font-weight: 300;
   margin-top: auto;
   margin-bottom: auto;
-
 }
 
 div.child_photop {
 	width: 40%;
-
 }
 
 div.child_textp2 {
@@ -79,7 +76,7 @@ div.child_textp2 {
   order:1;
 }
 
-div.child_photop2{
+div.child_photop2 {
 	width: 40%;
   order: 2;
 }

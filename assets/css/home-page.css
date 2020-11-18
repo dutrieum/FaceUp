@@ -123,3 +123,85 @@
   padding-right: 32px;
   padding-left: 32px;
 }
+
+.quotation_front_page h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 10%;
+  padding-left: 6%;
+  padding-top: 3%;
+}
+
+.quotation_front_page p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 2%;
+  line-height:32px;
+  text-align: center;
+}
+
+.quotation_front_page {
+  position: relative;
+  padding-bottom: 10%;
+  border-bottom: 1px solid #FEA31E;
+}
+
+.quotation_front_page:before {
+  content :'“';
+  display:block;
+  position: absolute;
+  left: 12%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+.quotation_front_page:after {
+  content :'”';
+  display:block;
+  position: absolute;
+  right: 7%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+.border_quotation_front_page {
+  border-left: 6px solid #FEA31E;
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picto_front_page img {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
+
+.picto_front_page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.picto_front_page div:first-child {
+  margin-left: 10%;
+}
+
+.picto_front_page div:last-child {
+  margin-right: 10%;
+}
+
+.picto_front_page p {
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 5%;
+  line-height: 32px;
+  text-align: center;
+  width: 60%;
+}

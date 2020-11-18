@@ -11,11 +11,11 @@
     <div id="title_seances">
       <h1><?php the_field('title'); ?></h1>
     </div>
-    
+
     <div class="wrap seances">
 			<div class="parent seances">
 				<div class="child photo seances">
-        <img src="<?php echo(get_field('picture1')['url']); ?>"/>
+          <img src="<?php echo(get_field('picture1')['url']); ?>"/>
         </div>
 				<div class="child text seances">
           <h2><?php the_field('little_title1'); ?></h2>
@@ -30,7 +30,7 @@
           <a href="<?php echo(get_permalink($button_seances->ID)); ?>">Voir les résultats</a>
         </div>
 				<div class="child photo seances">
-        <img src="<?php echo(get_field('picture2')['url']); ?>"/>
+          <img src="<?php echo(get_field('picture2')['url']); ?>"/>
         </div>
       </div>
       <div class="citation seances">
@@ -51,7 +51,7 @@
       </div>
       <div class="parent seances">
         <div class="child photo seances">
-        <img src="<?php echo(get_field('picture3')['url']); ?>"/>
+          <img src="<?php echo(get_field('picture3')['url']); ?>"/>
         </div>
         <div class="child text seances">
           <h2><?php the_field('little_title5'); ?></h2>
@@ -64,7 +64,7 @@
           <p><?php the_field('text6'); ?></p>
         </div>
         <div class="child photo seances">
-        <img src="<?php echo(get_field('picture4')['url']); ?>"/>
+          <img src="<?php echo(get_field('picture4')['url']); ?>"/>
         </div>
       </div>
     </div>

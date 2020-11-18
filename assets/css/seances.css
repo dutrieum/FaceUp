@@ -6,30 +6,36 @@ div#title_seances h1 {
   font-size: 75px;
   padding: 5% 22%;
 }
-div#title_seances{
+
+div#title_seances {
   margin-top: 12%;
 }
-div.child.text.seances h2{
+
+div.child.text.seances h2 {
   font-family: 'Josefin Sans', serif;
   font-weight: 600;
   font-size: 32px;
 }
-div.child.text.seances p{
+
+div.child.text.seances p {
   font-family: 'Inria Serif', serif;
   font-weight: 300;
   font-size: 20px;
   margin-top: 5%;
   line-height:32px;
 }
-div.child.photo.seances img{
+
+div.child.photo.seances img {
   display:block;
   width: 100%;
 }
+
 div.wrap.seances {
   margin: 0 auto;
   max-width: 1700px;
   padding: 0 8%;
 }
+
 div.parent.seances {
   display: flex;
   flex-wrap: wrap;
@@ -37,17 +43,20 @@ div.parent.seances {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
 div.child.text.seances {
   width: 43%;
   padding-left: 30px;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 div.child.photo.seances {
   width: 49%;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 div.child.text.seances a {
   text-transform:uppercase;
   color: #FEA31E;
@@ -62,7 +71,8 @@ div.child.text.seances a {
   display: block;
   width: 28%;
 }
-div.citation h2{
+
+div.citation h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   font-style: italic;
@@ -71,7 +81,8 @@ div.citation h2{
   padding-right: 2%;
   padding-left: 6%;
 }
-div.citation.seances p{
+
+div.citation.seances p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 25px;
@@ -79,13 +90,15 @@ div.citation.seances p{
   line-height:32px;
   text-align: center;
 }
-div.ligne.seances{
+
+div.ligne.seances {
   border-left: 6px solid #FEA31E;
   max-width:1000px;
   margin-left: auto;
   margin-right: auto;
 }
-div.citation.seances{
+
+div.citation.seances {
   position :relative;
   border-top: 1px solid #FEA31E;
   padding-top: 10px;
@@ -93,7 +106,8 @@ div.citation.seances{
   margin-top: 40px;
   padding-bottom: 80px;
 }
-div.citation.seances:before{
+
+div.citation.seances:before {
   content :'“';
   display:block;
   position: absolute;
@@ -103,7 +117,8 @@ div.citation.seances:before{
   font-weight: 300;
   font-size: 100px;
 }
-div.citation.seances:after{
+
+div.citation.seances:after {
   content :'”';
   display:block;
   position: absolute;

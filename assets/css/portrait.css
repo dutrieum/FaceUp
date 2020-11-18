@@ -61,8 +61,6 @@ div#text3_portrait {
 
 }
 
-
-
 div.text2_portrait {
   width: 50%;
   margin-left: auto;
@@ -87,7 +85,6 @@ div.presentation2_portrait {
   flex-wrap:wrap;
 }
 
-
 div.photo2_portrait {
   width: calc(50% - 32px);
 }
@@ -98,14 +95,11 @@ div.photo2_portrait img {
   height: auto;
 }
 
-
 div#text4_portrait {
   font-size: 20px;
   line-height: 32px;
   font-family: 'Inria Serif';
   font-weight: 300;
-
-
 }
 
 div.citation_portrait p{
@@ -119,7 +113,6 @@ div.citation_portrait p{
   padding-right: 78px;
 }
 
-
 div.citation_portrait {
   position:relative;
   padding-top: 60px;
@@ -128,10 +121,9 @@ div.citation_portrait {
   max-width: 630px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-div.citation_portrait:before{
+div.citation_portrait:before {
   content :'“';
   display:block;
   position: absolute;
@@ -141,7 +133,8 @@ div.citation_portrait:before{
   font-weight: 300;
   font-size: 100px;
 }
-div.citation_portrait:after{
+
+div.citation_portrait:after {
   content :'”';
   display:block;
   position: absolute;
@@ -169,48 +162,45 @@ div.button_portrait a {
   padding-right: 32px;
   padding-left: 32px;
   text-transform: uppercase;
-
 }
-
 
 div.formation_portrait {
-font-size: 32px;
-font-family: 'Josefin Sans';
-font-weight: 600;
-color: black;
-text-align: center;
-max-width: 1212px;
-margin-left: auto;
-margin-right: auto;
-border-top: 1px solid #FEA31E;
-margin-top: 85px;
-padding-top: 88px;
-box-sizing: border-box;
-border-bottom: 1px solid #FEA31E;
-padding-bottom: 88px;
-
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  max-width: 1212px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #FEA31E;
+  margin-top: 85px;
+  padding-top: 88px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FEA31E;
+  padding-bottom: 88px;
 }
 
-div.instagram_portrait h2{
-padding-top: 88px;
-font-size: 32px;
-font-family: 'Josefin Sans';
-font-weight: 600;
-color: black;
-text-align: center;
-max-width: 1212px;
-margin-left: auto;
-margin-right: auto;
+div.instagram_portrait h2 {
+  padding-top: 88px;
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  max-width: 1212px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-div.instagram_portrait p{
-padding-top: 5px;
-font-size: 25px;
-font-family: 'Josefin Sans';
-font-weight: 300;
-color: black;
-text-align: center;
-max-width: 1212px;
-margin-left: auto;
-margin-right: auto;
+div.instagram_portrait p {
+  padding-top: 5px;
+  font-size: 25px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  max-width: 1212px;
+  margin-left: auto;
+  margin-right: auto;
 }

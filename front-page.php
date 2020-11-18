@@ -27,7 +27,27 @@
       <div class="introduction_front_page">
         <h2><?php the_field('introduction_title'); ?></h2>
         <p><?php the_field('introduction_text'); ?></p>
-        <a href="<?php echo(get_permalink($button_learn_more->ID)); ?>">EN SAVOIR PLUS</a></div>
+        <a href="<?php echo(get_permalink($button_learn_more->ID)); ?>">EN SAVOIR PLUS</a>
+      </div>
+    </div>
+    <div class="quotation_front_page">
+      <div class="border_quotation_front_page">
+        <h2><?php the_field('quotation_front_page'); ?></h2>
+        <p><?php the_field('author_front_page'); ?></p>
+      </div>
+    </div>
+    <div class="picto_front_page">
+      <div class="first_picto_front">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/planning.svg" alt="Planning logo">
+        <p><?php the_field('first_picto_text'); ?></p>
+      </div>
+      <div class="second_picto_front">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tag.svg" alt="Tag logo">
+        <p><?php the_field('second_picto_text'); ?></p>
+      </div>
+      <div class="third_picto_front">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo">
+        <p><?php the_field('third_picto_text'); ?></p>
       </div>
     </div>
   </div>

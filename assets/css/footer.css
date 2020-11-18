@@ -3,7 +3,6 @@ footer {
   padding-top: 3%;
 }
 
-
 .wrap_footer {
   margin: 0 auto 0 auto;
 	max-width: 100%;
@@ -11,9 +10,11 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 a {
   text-decoration: none;
 }
+
 .wrap_footer p {
   color: white;
   font-family: 'Inria Serif', serif;
@@ -37,6 +38,7 @@ img#insta {
   margin: auto;
   padding-top: 8%;
 }
+
 div#meeting a {
   color: white;
   font-size: 12px;
@@ -48,6 +50,7 @@ div#meeting a {
   padding-right: 32px;
   padding-left: 32px;
 }
+
 div#meeting {
   padding-top: 3%;
 }
