@@ -20,7 +20,8 @@ div.presentation_portrait {
 
 div#title_portrait {
   font-size: 72px;
-  font-family: 'Josefin Sans', bold;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
   padding: 50px;
   color: #FFC107;
   text-align: center;
