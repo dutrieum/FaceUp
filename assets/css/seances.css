@@ -23,6 +23,8 @@ div.child.photo.seances img{
   display:block;
   width: 100%;
 }
+
+/*réglage*/
 div.wrap.seances {
   margin: 0 auto;
   max-width: 1700px;
