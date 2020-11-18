@@ -2,20 +2,34 @@
   get_header();
 
   $images = get_field('slider');
+  $method_first = get_field('first_picture_front_page');
+  $method_second = get_field('second_picture_front_page');
+  $button_discover = get_field('slider_button');
+  $button_learn_more = get_field('learn_more_button');
 ?>
 
 <main>
   <div class="slider">
     <div class="main-carousel">
       <div class="static_text_slider"><?php the_field('slider_text'); ?></div>
-      <div class="static_button_slider"><a href="<?php echo(get_permalink($button->ID)); ?>">DÉCOUVRIR</a></div>
+      <div class="static_button_slider"><a href="<?php echo(get_permalink($button_discover->ID)); ?>">DÉCOUVRIR</a></div>
       <?php foreach( $images as $image ): ?>
         <div class="carousel-cell"><img src="<?php echo($image['sizes']['slider-size']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"/></div>
       <?php endforeach; ?>
     </div>
   </div>
-  <div class="method_front_page">
-    <img src="<?php echo(get_field('first_picture_front_page')['url']); ?>"/>
+  <div class="wrap_front_page">
+    <div class="method_front_page">
+      <div class="pictures_front_page">
+        <img src="<?php echo($method_first['sizes']['method-size']); ?>"/>
+        <img src="<?php echo($method_second['sizes']['method-size']); ?>"/>
+      </div>
+      <div class="introduction_front_page">
+        <h2><?php the_field('introduction_title'); ?></h2>
+        <p><?php the_field('introduction_text'); ?></p>
+        <a href="<?php echo(get_permalink($button_learn_more->ID)); ?>">EN SAVOIR PLUS</a></div>
+      </div>
+    </div>
   </div>
 </main>
 
