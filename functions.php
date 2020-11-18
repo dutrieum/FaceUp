@@ -31,4 +31,5 @@
   ) );
 
   add_image_size( 'slider-size', 1280, 800, true );
+  add_image_size( 'method-size', 380, 530, true );
 ?>

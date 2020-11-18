@@ -14,6 +14,9 @@
       <?php endforeach; ?>
     </div>
   </div>
+  <div class="method_front_page">
+    <img src="<?php echo(get_field('first_picture_front_page')['url']); ?>"/>
+  </div>
 </main>
 
 <?php
