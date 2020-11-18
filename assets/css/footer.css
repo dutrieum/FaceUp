@@ -42,7 +42,7 @@ div#meeting a {
   font-size: 12px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  border: solid 1pt;
+  border: solid 1px;
   border-radius: 30px;
   padding: 21px;
   padding-right: 32px;
