@@ -1,11 +1,11 @@
-div.texte {
+div.text_portrait {
   width: 50%;
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-div.bloc1 {
+div.bloc1_portrait {
   max-width: 1212px;
   padding-left: 114px;
   padding-right: 114px;
@@ -13,12 +13,12 @@ div.bloc1 {
   margin-right: auto;
 }
 
-div.presentation {
+div.presentation_portrait {
   display:flex;
   flex-wrap:wrap;
 }
 
-div#titre {
+div#title_portrait {
   font-size: 72px;
   font-family: 'Josefin Sans', bold;
   padding: 50px;
@@ -27,31 +27,31 @@ div#titre {
   width: 100%;
 }
 
-div.photo {
+div.photo_portrait {
   width: calc(50% - 168px);
 }
 
-div.photo img {
+div.photo_portrait img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-div#texte1 {
+div#text1_portrait {
   font-size: 32px;
   line-height: 40px;
   font-family: 'Josefin Sans';
   font-weight: 600;
 }
 
-div#texte2 {
+div#text2_portrait {
   font-size: 20px;
   line-height: 32px;
   font-family: 'Inria Serif';
   font-weight: 300;
 }
 
-div#texte3 {
+div#text3_portrait {
   font-size: 20px;
   line-height: 32px;
   font-family: 'Inria Serif';
