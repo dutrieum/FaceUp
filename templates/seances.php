@@ -33,9 +33,11 @@
         <img src="<?php echo(get_field('picture2')['url']); ?>"/>
         </div>
       </div>
-      <div class="citation">
-        <h2><?php the_field('citation'); ?></h2>
-        <p><?php the_field('author_citation'); ?></p>
+      <div class="citation seances">
+        <div class="ligne seances">
+          <h2><?php the_field('citation'); ?></h2>
+          <p><?php the_field('author_citation'); ?></p>
+        </div>
       </div>
     </div>
 

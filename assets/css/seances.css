@@ -22,7 +22,6 @@ div.child.text.seances p{
 div.child.photo.seances img{
   display:block;
   width: 100%;
-  
 }
 
 /*réglage*/
@@ -36,7 +35,6 @@ div.parent.seances {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 32px;
 }
 
 div.child.text.seances {
@@ -65,12 +63,49 @@ div.citation h2{
   font-weight: 100;
   font-style: italic;
   font-size: 30px;
+  margin-top: 10%;
+  padding-right: 2%;
+  padding-left: 6%;
 }
-div.citation p{
+div.citation.seances p{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 25px;
-  margin-top: 5%;
+  margin-top: 2%;
   line-height:32px;
   text-align: center;
+}
+div.ligne.seances{
+  border-left: 6px solid #FEA31E;
+max-width:1000px;
+margin-left: auto;
+margin-right: auto;
+}
+div.citation.seances{
+  position :relative;
+  border-top: 1px solid;
+  padding-top: 10px;
+  border-bottom: 1px solid;
+  margin-top: 90px;
+  padding-bottom: 80px;
+}
+div.citation.seances:before{
+  content :'“';
+  display:block;
+  position: absolute;
+  left: 120px;
+  top:80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+div.citation.seances:after{
+  content :'”';
+  display:block;
+  position: absolute;
+  left: 120px;
+  top:80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
 }
