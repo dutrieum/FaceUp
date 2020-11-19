@@ -57,6 +57,12 @@
   <h2><?php the_field('follow'); ?></h2>
   <p><?php the_field('instagram'); ?></p>
 </div>
+<div class="bandeau_portrait">
+  <img src="<?php echo(get_field('instagram1_portrait')['url']); ?>"/>
+  <img src="<?php echo(get_field('instagram2_portrait')['url']); ?>"/>
+  <img src="<?php echo(get_field('instagram3_portrait')['url']); ?>"/>
+  <img src="<?php echo(get_field('instagram4_portrait')['url']); ?>"/>
+</div>
 
 
 
