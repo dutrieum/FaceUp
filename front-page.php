@@ -7,13 +7,16 @@
   $button_discover = get_field('slider_button');
   $button_learn_more = get_field('learn_more_button');
   $button_testimony = get_field('button_testimony_front');
+  $first_link = get_field('first_picto_link');
+  $second_link = get_field('second_picto_link');
+  $third_link = get_field('third_picto_link');
 ?>
 
 <main>
   <div class="slider">
     <div class="main-carousel">
       <div class="static_text_slider"><?php the_field('slider_text'); ?></div>
-      <div class="static_button_slider"><a href="<?php echo(get_permalink($button_discover->ID)); ?>">DÉCOUVRIR</a></div>
+      <div class="static_button_slider"><a href="<?php echo($button_discover); ?>">DÉCOUVRIR</a></div>
       <?php foreach( $images as $image ): ?>
         <div class="carousel-cell"><img src="<?php echo($image['sizes']['slider-size']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"/></div>
       <?php endforeach; ?>
@@ -28,7 +31,7 @@
       <div class="introduction_front_page">
         <h2><?php the_field('introduction_title'); ?></h2>
         <p><?php the_field('introduction_text'); ?></p>
-        <a href="<?php echo(get_permalink($button_learn_more->ID)); ?>">EN SAVOIR PLUS</a>
+        <a href="<?php echo($button_learn_more); ?>">EN SAVOIR PLUS</a>
       </div>
     </div>
     <div class="quotation_front_page">
@@ -36,20 +39,20 @@
         <h2><?php the_field('quotation_front_page'); ?></h2>
         <p><?php the_field('author_front_page'); ?></p>
       </div>
-      <a href="<?php echo(get_permalink($button_testimony->ID)); ?>">VOIR TOUS LES TÉMOIGNAGES</a>
+      <a href="<?php echo($button_testimony); ?>">VOIR TOUS LES TÉMOIGNAGES</a>
     </div>
     <div class="picto_front_page">
       <div class="first_picto_front">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/planning.svg" alt="Planning logo">
-        <p><?php the_field('first_picto_text'); ?></p>
+        <a href="<?php echo($first_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/planning.svg" alt="Planning logo"></a>
+        <a href="<?php echo($first_link); ?>"><p><?php the_field('first_picto_text'); ?></p></a>
       </div>
       <div class="second_picto_front">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tag.svg" alt="Tag logo">
-        <p><?php the_field('second_picto_text'); ?></p>
+        <a href="<?php echo($second_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tag.svg" alt="Tag logo"></a>
+        <a href="<?php echo($second_link); ?>"><p><?php the_field('second_picto_text'); ?></p></a>
       </div>
       <div class="third_picto_front">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo">
-        <p><?php the_field('third_picto_text'); ?></p>
+        <a href="<?php echo($third_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo"></a>
+        <a href="<?php echo($third_link); ?>"><p><?php the_field('third_picto_text'); ?></p></a>
       </div>
     </div>
   </div>
