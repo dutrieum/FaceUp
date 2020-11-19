@@ -9,14 +9,14 @@
           <div id="social">
             <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
             <div>
-              <a href="https://www.instagram.com/faceup_facialist/?hl=fr">
+              <a href="https://www.instagram.com/faceup_facialist/?hl=fr" target="_blank">
                 <img id="insta" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="Instagram logo">
               </a>
             </div>
           </div>
           <div id="meeting">
-            <?php $appointment_button = get_field('button'); ?>
-            <a href="<?php echo($appointment_button); ?>">PRENDRE RENDEZ-VOUS</a>
+            <?php $appointment_button = get_field('button','option'); ?>
+            <a href="<?php echo($appointment_button); ?>" target="_blank">PRENDRE RENDEZ-VOUS</a>
           </div>
       </footer>
     <?php wp_footer(); ?>
