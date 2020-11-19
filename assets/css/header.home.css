@@ -11,3 +11,7 @@ body.front-page ul .sub-menu a {
   border: none;
   justify-content: center;
 }
+
+body.front-page header {
+  position: absolute;
+}
