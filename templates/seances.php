@@ -27,7 +27,7 @@
           <h2><?php the_field('little_title2'); ?></h2>
           <p><?php the_field('text2'); ?></p>
           <p><?php $button_seances = get_field('button_seances');?></p>
-          <a href="<?php echo(get_permalink($button_seances->ID)); ?>">Voir les résultats</a>
+          <a href="<?php the_field('button_seances'); ?>">Voir les résultats</a>
         </div>
 				<div class="child photo seances">
           <img src="<?php echo(get_field('picture2')['url']); ?>"/>

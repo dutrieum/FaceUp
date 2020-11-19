@@ -15,7 +15,8 @@
             </div>
           </div>
           <div id="meeting">
-            <a href="<?php echo(get_permalink($button->ID)); ?>">PRENDRE RENDEZ-VOUS</a>
+            <?php $appointment_button = get_field('button'); ?>
+            <a href="<?php echo($appointment_button); ?>">PRENDRE RENDEZ-VOUS</a>
           </div>
       </footer>
     <?php wp_footer(); ?>
