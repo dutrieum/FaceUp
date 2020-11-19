@@ -1,7 +1,6 @@
       <footer>
         <div class="wrap_footer">
           <div id="contact">
-            <p><?php the_field('address', 'option'); ?></p>
             <p><?php the_field('phone', 'option'); ?></p>
             <p><?php the_field('email', 'option'); ?></p>
             <p><?php $mentions = get_field('mentions', 'option');?></p>
