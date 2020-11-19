@@ -32,4 +32,5 @@
 
   add_image_size( 'slider-size', 1280, 800, true );
   add_image_size( 'method-size', 380, 530, true );
+  add_image_size( 'instagram-size', 280, 280, true );
 ?>

@@ -6,6 +6,7 @@
   $method_second = get_field('second_picture_front_page');
   $button_discover = get_field('slider_button');
   $button_learn_more = get_field('learn_more_button');
+  $button_testimony = get_field('button_testimony_front');
 ?>
 
 <main>
@@ -35,6 +36,7 @@
         <h2><?php the_field('quotation_front_page'); ?></h2>
         <p><?php the_field('author_front_page'); ?></p>
       </div>
+      <a href="<?php echo(get_permalink($button_testimony->ID)); ?>">VOIR TOUS LES TÉMOIGNAGES</a>
     </div>
     <div class="picto_front_page">
       <div class="first_picto_front">
