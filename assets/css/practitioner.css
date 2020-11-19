@@ -11,10 +11,7 @@ div.map iframe {
   display: block;
   margin:auto;
 }
-div.map {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
+
 div.button_practitioner_prices {
   display:flex;
   justify-content: center;

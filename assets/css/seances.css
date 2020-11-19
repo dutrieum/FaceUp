@@ -7,10 +7,6 @@ div#title_seances h1 {
   padding: 5% 22%;
 }
 
-div#title_seances {
-  margin-top: 12%;
-}
-
 div.child.text.seances h2 {
   font-family: 'Josefin Sans', serif;
   font-weight: 600;
@@ -40,7 +36,7 @@ div.parent.seances {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 
