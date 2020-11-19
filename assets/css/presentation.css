@@ -10,6 +10,8 @@ div.title_presentation h1{
 p.mtitle_presentation {
   font-family: 'Josefin Sans';
   font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 p.subtitle_presentation {
@@ -60,6 +62,10 @@ div.child_textp {
   font-weight: 300;
   margin-top: auto;
   margin-bottom: auto;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
 }
 
 div.child_photop {
@@ -73,6 +79,11 @@ div.child_textp2 {
   margin-top: auto;
   margin-bottom: auto;
   order:1;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
+
 }
 
 div.child_photop2 {

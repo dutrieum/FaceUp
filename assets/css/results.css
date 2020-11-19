@@ -6,3 +6,116 @@ div.title_results h1{
   text-align: center;
   width: 100%;
 }
+
+div.wrap_results {
+  margin: 0 auto;
+  max-width: 1216px;
+  padding: 0 112px;
+}
+
+div.subtitle_results h2 {
+  font-size:30px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 150px;
+}
+
+div.quote_results {
+  position:relative;
+  padding-top: 60px;
+  margin-top: 88px;
+  padding-bottom: 80px;
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.quote_results:before {
+  content :'“';
+  display:block;
+  position: absolute;
+  left: 100px;
+  top:50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+div.quote_results:after {
+  content :'”';
+  display:block;
+  position: absolute;
+  left: 605px;
+  top:120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+div.photo_results{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  border-top: 1px solid #FEA31E;
+  margin-top: 88px;
+  padding-top: 88px;
+    
+}
+
+
+div.photo_results img{
+  width: 45%;
+  justify-content: space-between;
+}
+
+div.before_after_results {
+  display:flex;
+  justify-content: space-between;
+  margin:auto;
+  font-size: 30px ;
+  font-family: 'Josefin Sans' ;
+  font-weight: 600;
+}
+
+
+div.before_after_results p.before_results {
+  padding-left:360px;
+  margin-top:30px;
+}
+
+div.before_after_results p.after_results {
+  padding-right:360px;
+  margin-top:30px;
+}
+
+#beforeresults {
+  margin-bottom: 120px;
+}
+
+#afterresults {
+  margin-bottom: 120px;
+}
+
+div.quote_results {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 10%;
+  padding-right: 2%;
+  padding-left: 6%;
+}
+
+div.quote_results p{
+  font-family:'Josefin Sans';
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 2%;
+  line-height: 32px;
+  border-left: 6px solid #FEA31E;
+  padding-left: 78px;
+  padding-right: 78px;
+}
