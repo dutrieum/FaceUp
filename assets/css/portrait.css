@@ -177,8 +177,17 @@ div.formation_portrait {
   margin-top: 85px;
   padding-top: 88px;
   box-sizing: border-box;
-  border-bottom: 1px solid #FEA31E;
   padding-bottom: 88px;
+}
+
+div.instagram_portrait:before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 384px;
+  background-color: #FEA31E;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.instagram_portrait h2 {
@@ -207,4 +216,19 @@ div.instagram_portrait p {
 
 div.bandeau_portrait{
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  max-width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 140px;
+}
+
+div.bandeau_portrait a {
+  width: 25%;
+  display: block;
+}
+
+div.bandeau_portrait a img {
+  display: block;
 }

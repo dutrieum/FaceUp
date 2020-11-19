@@ -62,10 +62,18 @@
   <p><?php the_field('instagram'); ?></p>
 </div>
 <div class="bandeau_portrait">
-  <img src="<?php echo($instagram_first_portrait['sizes']['instagram-size']); ?>"/>
-  <img src="<?php echo($instagram_second_portrait['sizes']['instagram-size']); ?>"/>
-  <img src="<?php echo($instagram_third_portrait['sizes']['instagram-size']); ?>"/>
-  <img src="<?php echo($instagram_fourth_portrait['sizes']['instagram-size']); ?>"/>
+  <a href="#">
+    <img src="<?php echo($instagram_first_portrait['sizes']['instagram-size']); ?>"/>
+  </a>
+  <a href="#">
+    <img src="<?php echo($instagram_second_portrait['sizes']['instagram-size']); ?>"/>
+  </a>
+  <a href="#">
+    <img src="<?php echo($instagram_third_portrait['sizes']['instagram-size']); ?>"/>
+  </a>
+  <a href="#">
+    <img src="<?php echo($instagram_fourth_portrait['sizes']['instagram-size']); ?>"/>
+  </a>
 </div>
 
 
