@@ -62,16 +62,16 @@
   <p><?php the_field('instagram'); ?></p>
 </div>
 <div class="bandeau_portrait">
-  <a href="#">
+  <a href="https://www.instagram.com/faceup_facialist/?hl=fr">
     <img src="<?php echo($instagram_first_portrait['sizes']['instagram-size']); ?>"/>
   </a>
-  <a href="#">
+  <a href="https://www.instagram.com/faceup_facialist/?hl=fr">
     <img src="<?php echo($instagram_second_portrait['sizes']['instagram-size']); ?>"/>
   </a>
-  <a href="#">
+  <a href="https://www.instagram.com/faceup_facialist/?hl=fr">
     <img src="<?php echo($instagram_third_portrait['sizes']['instagram-size']); ?>"/>
   </a>
-  <a href="#">
+  <a href="https://www.instagram.com/faceup_facialist/?hl=fr">
     <img src="<?php echo($instagram_fourth_portrait['sizes']['instagram-size']); ?>"/>
   </a>
 </div>
