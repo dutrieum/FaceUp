@@ -42,9 +42,13 @@ div.parent.seances {
 
 div.child.text.seances {
   width: 43%;
-  padding-left: 30px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+div.child.text.seances.no_margin {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.child.photo.seances {

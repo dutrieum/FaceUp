@@ -40,11 +40,11 @@
         </div>
       </div>
       <div class="parent seances">
-        <div class="child text seances">
+        <div class="child text seances no_margin">
           <h2><?php the_field('little_title3'); ?></h2>
           <p><?php the_field('text3'); ?></p>
         </div>
-        <div class="child text seances">
+        <div class="child text seances no_margin">
           <h2><?php the_field('little_title4'); ?></h2>
           <p><?php the_field('text4'); ?></p>
         </div>
