@@ -1,6 +1,6 @@
 footer {
   background-color: #FEA31E;
-  padding-top: 3%;
+  padding: 32px 0;
 }
 
 .wrap_footer {
@@ -26,6 +26,15 @@ div#social {
   text-align: center;
 }
 
+div#contact {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div#contact p:last-child {
+  padding-bottom: 0;
+}
+
 div#social a {
   color: white;
   font-size: 20px;
@@ -49,8 +58,9 @@ div#meeting a {
   padding: 21px;
   padding-right: 32px;
   padding-left: 32px;
+  display: inline-flex;
 }
 
 div#meeting {
-  padding-top: 3%;
+align-self: center;
 }

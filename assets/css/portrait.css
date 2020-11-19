@@ -22,7 +22,7 @@ div#title_portrait {
   font-size: 72px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  padding: 50px;
+  padding: 80px;
   color: #FEA31E;
   text-align: center;
   width: 100%;
@@ -63,7 +63,7 @@ div#text3_portrait {
 
 div.text2_portrait {
   width: 50%;
-  margin-left: auto;
+  margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -115,9 +115,8 @@ div.citation_portrait p{
 
 div.citation_portrait {
   position:relative;
-  padding-top: 60px;
-  margin-top: 88px;
-  padding-bottom: 80px;
+  margin-top: 90px;
+  padding-bottom: 10px;
   max-width: 630px;
   margin-left: auto;
   margin-right: auto;
@@ -127,8 +126,8 @@ div.citation_portrait:before {
   content :'“';
   display:block;
   position: absolute;
-  left: 40px;
-  top:50px;
+  left: 30px;
+  top: 0px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 100px;
@@ -139,7 +138,7 @@ div.citation_portrait:after {
   display:block;
   position: absolute;
   left: 555px;
-  top:310px;
+  top: 235px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 100px;
@@ -183,7 +182,7 @@ div.formation_portrait {
 div.instagram_portrait:before {
   content: '';
   display: block;
-  height: 1px;
+  height: 0.5px;
   width: 384px;
   background-color: #FEA31E;
   margin-left: auto;

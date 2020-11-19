@@ -36,15 +36,19 @@ div.parent.seances {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
 div.child.text.seances {
   width: 43%;
-  padding-left: 30px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+div.child.text.seances.no_margin {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.child.photo.seances {
@@ -62,7 +66,6 @@ div.child.text.seances a {
   border: solid 1pt;
   border-radius: 30px;
   padding: 21px;
-  padding-right: 32px;
   padding-left: 32px;
   display: block;
   width: 28%;
