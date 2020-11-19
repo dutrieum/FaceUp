@@ -1,8 +1,99 @@
-div.title_practitioner h1 {
+div.title_need h1 {
   color: #FEA31E;
   text-align: center;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
   font-size: 75px;
   padding: 5% 22%;
+}
+
+div.child.text.need h2 {
+  font-family: 'Josefin Sans', serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+div.child.text.need p {
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 5%;
+  line-height:32px;
+}
+
+div.child.photo.need img {
+  display:block;
+  width: 100%;
+}
+
+div.wrap.need {
+  margin: 0 auto;
+  max-width: 1700px;
+  padding: 0 8%;
+}
+
+div.parent.need {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+div.child.text.need {
+  width: 43%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.child.text.need.no_margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.child.photo.need {
+  width: 49%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.parent.need.line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #FEA31E;
+  padding-bottom: 80px;
+}
+
+div.button_discover_need {
+  display:flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+div.button_discover_need a {
+  color: #FEA31E;
+  font-size: 12px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  border: solid 1px #FEA31E;
+  border-radius: 30px;
+  padding: 21px;
+  padding-right: 32px;
+  padding-left: 32px;
+  text-transform: uppercase;
+}
+
+div.title_discover_need {
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  max-width: 1212px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
 }
