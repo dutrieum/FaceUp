@@ -3,8 +3,8 @@
           <div id="contact">
             <p><?php the_field('phone', 'option'); ?></p>
             <p><?php the_field('email', 'option'); ?></p>
-            <p><?php $mentions = get_field('mentions', 'option');?></p>
-            <p><?php $button = get_field('button', 'option');?></p>
+            <?php $mentions = get_field('mentions', 'option');?>
+            <?php $button = get_field('button', 'option');?>
           </div>
           <div id="social">
             <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
