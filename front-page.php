@@ -10,6 +10,10 @@
   $first_link = get_field('first_picto_link');
   $second_link = get_field('second_picto_link');
   $third_link = get_field('third_picto_link');
+  $instagram_first_front = get_field('first_post_instagram_front_page');
+  $instagram_second_front = get_field('second_post_instagram_front_page');
+  $instagram_third_front = get_field('third_post_instagram_front_page');
+  $instagram_fourth_front = get_field('fourth_post_instagram_front_page');
 ?>
 
 <main>
@@ -53,6 +57,16 @@
       <div class="third_picto_front">
         <a href="<?php echo($third_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo"></a>
         <a href="<?php echo($third_link); ?>"><p><?php the_field('third_picto_text'); ?></p></a>
+      </div>
+    </div>
+    <div class="social_wall_front_page">
+      <h2><?php the_field('instagram_title_front'); ?></h2>
+      <p><?php the_field('instagram_text_front'); ?></p>
+      <div class="social_wall_posts_front_page">
+        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_first_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_second_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_third_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_fourth_front['sizes']['instagram-size']); ?>"/></a>
       </div>
     </div>
   </div>

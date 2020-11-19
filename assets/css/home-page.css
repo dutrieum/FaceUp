@@ -232,3 +232,37 @@
   margin-right: auto;
   color: black;
 }
+
+.social_wall_front_page h2 {
+  padding-top: 8%;
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.social_wall_front_page p {
+  padding-top: 5px;
+  font-size: 25px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.social_wall_posts_front_page {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  padding-bottom: 8%;
+}
+
+.social_wall_posts_front_page a {
+  width: 25%;
+  display: block;
+}
+
+.social_wall_posts_front_page a img {
+  display: block;
+}
