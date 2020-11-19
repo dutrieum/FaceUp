@@ -45,18 +45,21 @@
       </div>
       <a href="<?php echo($button_testimony); ?>">VOIR TOUS LES TÉMOIGNAGES</a>
     </div>
-    <div class="picto_front_page">
-      <div class="first_picto_front">
-        <a href="<?php echo($first_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/planning.svg" alt="Planning logo"></a>
-        <a href="<?php echo($first_link); ?>"><p><?php the_field('first_picto_text'); ?></p></a>
-      </div>
-      <div class="second_picto_front">
-        <a href="<?php echo($second_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tag.svg" alt="Tag logo"></a>
-        <a href="<?php echo($second_link); ?>"><p><?php the_field('second_picto_text'); ?></p></a>
-      </div>
-      <div class="third_picto_front">
-        <a href="<?php echo($third_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo"></a>
-        <a href="<?php echo($third_link); ?>"><p><?php the_field('third_picto_text'); ?></p></a>
+    <div class="pictograms_front_page">
+      <h2><?php the_field('picto_title_front'); ?></h2>
+      <div class="picto_front_page">
+        <div class="first_picto_front">
+          <a href="<?php echo($first_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/planning.svg" alt="Planning logo"></a>
+          <a href="<?php echo($first_link); ?>"><p><?php the_field('first_picto_text'); ?></p></a>
+        </div>
+        <div class="second_picto_front">
+          <a href="<?php echo($second_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tag.svg" alt="Tag logo"></a>
+          <a href="<?php echo($second_link); ?>"><p><?php the_field('second_picto_text'); ?></p></a>
+        </div>
+        <div class="third_picto_front">
+          <a href="<?php echo($third_link); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.svg" alt="Map logo"></a>
+          <a href="<?php echo($third_link); ?>"><p><?php the_field('third_picto_text'); ?></p></a>
+        </div>
       </div>
     </div>
     <div class="social_wall_front_page">

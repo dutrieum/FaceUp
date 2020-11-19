@@ -193,6 +193,15 @@
   margin-right: auto;
 }
 
+.pictograms_front_page h2 {
+  padding-top: 8%;
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
 .picto_front_page img {
   width: 90px;
   height: 90px;
@@ -203,7 +212,7 @@
 .picto_front_page {
   display: flex;
   justify-content: space-between;
-  margin-top: 8%;
+  margin-top: 6%;
   padding-bottom: 8%;
   border-bottom: 1px solid #FEA31E;
 }
