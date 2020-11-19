@@ -11,7 +11,9 @@
   <div class="title_practitioner">
     <h1><?php the_field('title_practitioner'); ?></h1>
   </div>
-
+  <div class="map">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1fikSmzQGUdQzE2qp2MZXXgEXHxlH9y-0" width="640" height="480"></iframe>
+  </div>
 
 <?php
   get_footer();

@@ -1,3 +1,17 @@
 div.title_practitioner h1 {
   color: #FEA31E;
+  text-align: center;
+  font-family: 'Josefin Sans',sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  padding: 5% 22%;
+}
+
+div.map iframe {
+  display: block;
+  margin:auto;
+}
+div.map {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
