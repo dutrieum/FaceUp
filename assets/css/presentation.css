@@ -43,6 +43,10 @@ div.parent_presentation {
   padding-top: 88px;
 }
 
+div.title_presentation {
+  margin-top: 100px;
+}
+
 div.parent_presentation:first-child {
   border-top: none;
 }

@@ -9,8 +9,14 @@ div.title_results h1{
 
 div.wrap_results {
   margin: 0 auto;
-  max-width: 1216px;
-  padding: 0 112px;
+  max-width: 1700px;
+  padding: 0 8%;
+}
+
+div.photo_general_results {
+  border-top: 1px solid #FEA31E;
+  margin-top: 88px;
+  padding-top: 120px;
 }
 
 div.subtitle_results h2 {
@@ -59,10 +65,7 @@ div.photo_results{
   width: 60%;
   margin: auto;
   justify-content: space-between;
-  border-top: 1px solid #FEA31E;
-  margin-top: 88px;
-  padding-top: 88px;
-    
+
 }
 
 
