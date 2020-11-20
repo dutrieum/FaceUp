@@ -11,6 +11,9 @@ div.bloc_job {
   padding-right: 114px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FEA31E;
+  padding-bottom: 88px;
 }
 
 div.text_job {
@@ -29,7 +32,7 @@ div#title_job {
 }
 
 div.photo_job {
-  width: calc(50% - 168px);
+  width: calc(50% - 136px);
 }
 
 div.photo_job img {
@@ -51,4 +54,40 @@ div#text1_job2 {
   font-family: 'Inria Serif';
   font-weight: 300;
 
+}
+
+div.button_job {
+  display:flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+div.button_job a {
+  color: #FEA31E;
+  font-size: 12px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  border: solid 1px #FEA31E;
+  border-radius: 30px;
+  padding: 13px;
+  padding-right: 32px;
+  padding-left: 32px;
+  text-transform: uppercase;
+}
+
+div.application {
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  max-width: 1212px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #FEA31E;
+  margin-top: 86px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 86px;
+  margin-bottom: 110px;
 }
