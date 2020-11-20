@@ -10,6 +10,8 @@
   $instagram_second_portrait = get_field('instagram2_portrait');
   $instagram_third_portrait = get_field('instagram3_portrait');
   $instagram_fourth_portrait = get_field('instagram4_portrait');
+  $testimony_button_portrait = get_field('button');
+  $formation_button_portrait = get_field('button2');
 ?>
 
 <div class="bloc1_portrait">
@@ -48,13 +50,13 @@
 <div class="citation_portrait">
   <p><?php the_field('quote'); ?></p>
     <div class="button_portrait">
-        <a href="<?php echo(get_permalink($button->ID)); ?>">voir tous les témoignages</a>
+        <a href="<?php echo($testimony_button_portrait); ?>">voir tous les témoignages</a>
     </div>
 </div>
 <div class="formation_portrait">
   <p><?php the_field('formation'); ?></p>
     <div class="button_portrait">
-      <a href="<?php echo(get_permalink($button->ID)); ?>">se former</a>
+      <a href="<?php echo($formation_button_portrait); ?>">se former</a>
     </div>
 </div>
 <div class="instagram_portrait">
