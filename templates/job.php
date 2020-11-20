@@ -22,9 +22,15 @@ Template Name: Job
       </div>
       <div id="text1_job2">
         <p><?php the_field('description_job'); ?></p>
+        <div class="button_job">
+            <a href="<?php echo(get_permalink($button->ID)); ?>">contactez-nous</a>
+        </div>
       </div>
     </div>
   </div>
+</div>
+<div class="application">
+  <p><?php the_field('application_job'); ?></p>
 </div>
 
 

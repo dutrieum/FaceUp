@@ -5,6 +5,7 @@ div.title_results h1{
   color: #FEA31E;
   text-align: center;
   width: 100%;
+  margin-top: 100px;
 }
 
 div.wrap_results {
@@ -24,13 +25,13 @@ div.subtitle_results h2 {
   font-family: 'Josefin Sans';
   font-weight: 600;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 div.quote_results {
   position:relative;
   padding-top: 60px;
-  margin-top: 88px;
+  margin-top: 80px;
   padding-bottom: 80px;
   max-width: 630px;
   margin-left: auto;
@@ -107,7 +108,6 @@ div.quote_results {
   font-weight: 100;
   font-style: italic;
   font-size: 30px;
-  margin-top: 10%;
   padding-right: 2%;
   padding-left: 6%;
 }
