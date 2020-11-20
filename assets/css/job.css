@@ -1,0 +1,54 @@
+div.text1_job {
+  width: 50%;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.bloc_job {
+  max-width: 1212px;
+  padding-left: 114px;
+  padding-right: 114px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.text_job {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+div#title_job {
+  font-size: 72px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  padding: 80px;
+  color: #FEA31E;
+  text-align: center;
+  width: 100%;
+}
+
+div.photo_job {
+  width: calc(50% - 168px);
+}
+
+div.photo_job img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+div#text1_job1 {
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+}
+
+div#text1_job2 {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inria Serif';
+  font-weight: 300;
+
+}
