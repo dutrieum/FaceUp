@@ -25,7 +25,8 @@ div#title_job {
   font-size: 72px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   color: #FEA31E;
   text-align: center;
   width: 100%;
