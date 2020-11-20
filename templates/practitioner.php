@@ -18,7 +18,7 @@
   <div class="title_practitioner_prices">
     <p><?php the_field('title_practitioner_prices'); ?></p>
       <div class="button_practitioner_prices">
-        <a href="><?php echo($button_practitioner_prices); ?>">voir les tarifs</a>
+        <a href="<?php echo($button_practitioner_prices); ?>">voir les tarifs</a>
       </div>
   </div>
 
