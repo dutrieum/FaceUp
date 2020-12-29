@@ -66,10 +66,10 @@
       <h2><?php the_field('instagram_title_front'); ?></h2>
       <p><?php the_field('instagram_text_front'); ?></p>
       <div class="social_wall_posts_front_page">
-        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_first_front['sizes']['instagram-size']); ?>"/></a>
-        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_second_front['sizes']['instagram-size']); ?>"/></a>
-        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_third_front['sizes']['instagram-size']); ?>"/></a>
-        <a href="https://www.instagram.com/faceup_facialist/?hl=fr"><img src="<?php echo($instagram_fourth_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faciology_/"><img src="<?php echo($instagram_first_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faciology_/"><img src="<?php echo($instagram_second_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faciology_/"><img src="<?php echo($instagram_third_front['sizes']['instagram-size']); ?>"/></a>
+        <a href="https://www.instagram.com/faciology_/"><img src="<?php echo($instagram_fourth_front['sizes']['instagram-size']); ?>"/></a>
       </div>
     </div>
   </div>

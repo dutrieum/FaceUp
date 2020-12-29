@@ -9,7 +9,7 @@
           <div id="social">
             <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
             <div>
-              <a href="https://www.instagram.com/faceup_facialist/?hl=fr" target="_blank">
+              <a href="https://www.instagram.com/faciology_/" target="_blank">
                 <img id="insta" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="Instagram logo">
               </a>
             </div>
