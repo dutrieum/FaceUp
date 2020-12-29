@@ -1,8 +1,23 @@
-h1 {
+.wrap_prices_page h1 {
   color: #FEA31E;
   text-align: center;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
   font-size: 75px;
   padding: 5% 22%;
+}
+
+.wrap_prices_page {
+    margin: 0 auto;
+    max-width: 1700px;
+    padding: 0 8%;
+}
+
+.paragraph_prices p {
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 5%;
+  line-height: 32px;
+  text-align: center;
 }
