@@ -28,7 +28,7 @@
     wp_enqueue_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array ( 'jquery' ), 1.1, true);
     wp_enqueue_style( 'home-page', get_template_directory_uri() . '/assets/css/home-page.css', array(), '1.1');
     wp_enqueue_style( 'job', get_template_directory_uri() . '/assets/css/job.css', array(), '1.1');
-    wp_enqueue_style( 'job', get_template_directory_uri() . '/assets/css/prices.css', array(), '1.1');
+    wp_enqueue_style( 'prices', get_template_directory_uri() . '/assets/css/prices.css', array(), '1.1');
   }
   add_action( 'wp_enqueue_scripts', 'load_files' );
 
