@@ -45,3 +45,34 @@ div.title_practitioner_prices {
   padding-top: 88px;
   padding-bottom: 88px;
 }
+
+.wrap_practitioner {
+    margin: 0 auto;
+    max-width: 1700px;
+    padding: 0 8%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.wrap_practitioner h2 {
+  color: #FEA31E;
+  font-family: 'Josefin Sans',sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 3%;
+}
+
+.wrap_practitioner p {
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.first_column_practitioner {
+  width: 50%;
+}
+
+.second_column_practitioner {
+  width: 50%;
+}
