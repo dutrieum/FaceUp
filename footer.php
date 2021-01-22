@@ -7,7 +7,7 @@
             <?php $button = get_field('button', 'option');?>
           </div>
           <div id="social">
-            <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions Légales</a>
+            <a href="<?php echo(get_permalink($mentions->ID)); ?>">Mentions légales</a>
             <div>
               <a href="https://www.instagram.com/faciology_/" target="_blank">
                 <img id="insta" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="Instagram logo">
