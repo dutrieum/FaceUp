@@ -1,0 +1,24 @@
+@media screen and (max-width: 1350px){
+    .method_front_page .pictures_front_page{
+        width: 100%;
+    }
+    .method_front_page .pictures_front_page img:first-child{
+        left: 30%;
+        height:400px;
+        width: auto;
+    }
+    .method_front_page .pictures_front_page img:last-child{
+        left: 20%;
+        height:400px;
+        width: auto;
+    }
+    .introduction_front_page{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .introduction_front_page p{
+        width: 100%;
+    }
+
+
+}
