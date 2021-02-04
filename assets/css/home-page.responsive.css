@@ -23,12 +23,12 @@
     @media screen and (max-width: 800px){
 
         .method_front_page .pictures_front_page img:first-child{
-            left: 20%;
+            left: 18%;
             height:300px;
             width: auto;
         }
         .method_front_page .pictures_front_page img:last-child{
-            left: 10%;
+            left: 8%;
             height:300px;
             width: auto;
         }
@@ -45,6 +45,20 @@
         }
         .social_wall_posts_front_page{
             justify-content: space-evenly;
+        }
+
+        .quotation_front_page a{
+            left: 0%;
+        }
+        @media screen and (max-width: 600px){
+            .picto_front_page{
+                flex-wrap: wrap;
+
+            }
+            .picto_front_page div{
+                margin: 20px;
+                width: 100%;
+            }
         }
     }
 }
