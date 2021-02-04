@@ -55,8 +55,10 @@
                 flex-wrap: wrap;
 
             }
-            .picto_front_page div{
-                margin: 20px 0;
+            .picto_front_page div, .picto_front_page div:first-child, .picto_front_page div:last-child{
+                margin-top: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
                 width: 100%;
             }
         }
