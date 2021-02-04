@@ -19,6 +19,9 @@
     .introduction_front_page p{
         width: 100%;
     }
+    .quotation_front_page a{
+        left: 0%;
+    }
 
     @media screen and (max-width: 800px){
 
@@ -47,9 +50,7 @@
             justify-content: space-evenly;
         }
 
-        .quotation_front_page a{
-            left: 0%;
-        }
+
         @media screen and (max-width: 600px){
             .picto_front_page{
                 flex-wrap: wrap;
