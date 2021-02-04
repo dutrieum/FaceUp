@@ -274,4 +274,6 @@
 
 .social_wall_posts_front_page a img {
   display: block;
+  width: 80%;
+  margin: 0 auto;
 }

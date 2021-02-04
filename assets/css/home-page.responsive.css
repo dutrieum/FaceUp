@@ -14,11 +14,37 @@
     }
     .introduction_front_page{
         width: 100%;
-        margin-top: 24px;
+        margin-top: 50px;
     }
     .introduction_front_page p{
         width: 100%;
     }
 
+    @media screen and (max-width: 800px){
 
+        .method_front_page .pictures_front_page img:first-child{
+            left: 20%;
+            height:300px;
+            width: auto;
+        }
+        .method_front_page .pictures_front_page img:last-child{
+            left: 10%;
+            height:300px;
+            width: auto;
+        }
+        .introduction_front_page{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .introduction_front_page p{
+            width: 100%;
+        }
+        .social_wall_posts_front_page a{
+            width: 50%;
+            margin-bottom:24px ;
+        }
+        .social_wall_posts_front_page{
+            justify-content: space-evenly;
+        }
+    }
 }
