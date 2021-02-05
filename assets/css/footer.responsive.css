@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px){
+    .wrap_footer{
+        display: block;
+    }
+    .wrap_footer p{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    img#insta{
+        width: 50px;
+        margin-top: 15px;
+    }
+    div#meeting{
+        margin-top: 10px;
+    }
+
+
+}
