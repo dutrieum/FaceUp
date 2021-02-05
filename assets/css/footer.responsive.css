@@ -1,6 +1,7 @@
 @media screen and (max-width: 800px){
     .wrap_footer{
         display: block;
+        text-align: center;
     }
     .wrap_footer p{
         padding: 0;
