@@ -1,0 +1,49 @@
+ @media screen and (max-width: 1000px){
+            
+    div.child_photop{
+        width: 100%;
+        order: 2;
+    }
+            div.child_textp{
+                width:100%;
+                margin-bottom:32px;
+                order: 1;
+            }
+
+            div.child_text{
+                width:100%;
+                margin-bottom:32px;
+            }
+
+            div.child_photop2{
+                width:100%;
+            }
+
+        @media screen and (max-width: 600px){
+            
+            div.wrap_presentation{
+                padding:0 50px;
+            }
+            div.title_presentation h1{
+                    font-size:60px;
+                }
+            div.parent_presentation:first-child{
+                margin-top:0px;
+            }
+            
+            @media screen and (max-width: 500px){
+            
+                div.wrap_presentation{
+                padding:0 20px;
+                }
+
+                div.title_presentation h1{
+                font-size:48px;
+                }
+                
+            }
+
+        }
+
+
+}
