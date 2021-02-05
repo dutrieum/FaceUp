@@ -2,7 +2,7 @@ div.title_presentation h1{
   font-size: 72px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  color: #FEA31E;
+  color: #f8b472;
   text-align: center;
   width: 100%;
 }
@@ -38,7 +38,7 @@ div.parent_presentation {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 32px;
-  border-top: 1px solid #FEA31E;
+  border-top: 1px solid #f8b472;
   margin-top: 88px;
   padding-top: 88px;
 }
