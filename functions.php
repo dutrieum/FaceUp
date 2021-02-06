@@ -32,6 +32,8 @@
     wp_enqueue_style( 'home-page-responsive', get_template_directory_uri() . '/assets/css/home-page.responsive.css', array(), '1.1');
     wp_enqueue_style( 'footer-responsive', get_template_directory_uri() . '/assets/css/footer.responsive.css', array(), '1.1');
     wp_enqueue_style( 'presentation-responsive', get_template_directory_uri() . '/assets/css/presentation.responsive.css', array(), '1.1');
+    wp_enqueue_style( 'seances-responsive', get_template_directory_uri() . '/assets/css/seances.responsive.css', array(), '1.1');
+
 
   }
   add_action( 'wp_enqueue_scripts', 'load_files' );
