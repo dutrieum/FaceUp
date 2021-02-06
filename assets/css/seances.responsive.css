@@ -1,0 +1,32 @@
+@media screen and (max-width: 1350px){
+            
+    div.citation.seances:after, div.citation.seances:before{
+        display:none;
+    }
+
+        @media screen and (max-width: 800px){
+            
+            div.child.photo.seances{
+                width: 100%;
+                order: 2;
+            }
+            div.child.text.seances{
+                width: 100%;
+                order: 1;
+                margin-bottom:32px;
+            }
+    
+            div.child.text.seances{
+                width: 100%;
+                margin-bottom: 32px;
+            }
+            
+            @media screen and (max-width: 500px){
+            
+            
+            }
+
+        }
+
+
+}
