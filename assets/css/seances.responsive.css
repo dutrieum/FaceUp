@@ -21,9 +21,23 @@
                 margin-bottom: 32px;
             }
             
-            @media screen and (max-width: 500px){
+            @media screen and (max-width: 600px){
             
-            
+
+                div.title_presentation h1{
+                        font-size:60px;
+                    }
+
+                
+                @media screen and (max-width: 500px){
+                
+
+                    div.title_presentation h1{
+                    font-size:48px;
+                    }
+                    
+                }
+    
             }
 
         }
