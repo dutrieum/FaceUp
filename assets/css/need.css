@@ -1,5 +1,5 @@
 div.title_need h1 {
-  color: #FEA31E;
+  color: #f8b472;
   text-align: center;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
@@ -11,6 +11,7 @@ div.child.text.need h2 {
   font-family: 'Josefin Sans', serif;
   font-weight: 600;
   font-size: 32px;
+  color: #052a4d;
 }
 
 div.child.text.need p {
@@ -63,7 +64,7 @@ div.parent.need.line {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 80px;
-  border-bottom: 1px solid #FEA31E;
+  border-bottom: 1px solid #f8b472;
   padding-bottom: 80px;
 }
 
@@ -74,11 +75,11 @@ div.button_discover_need {
 }
 
 div.button_discover_need a {
-  color: #FEA31E;
+  color: #f8b472;
   font-size: 12px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  border: solid 1px #FEA31E;
+  border: solid 1px #f8b472;
   border-radius: 30px;
   padding: 21px;
   padding-right: 32px;
@@ -96,4 +97,5 @@ div.title_discover_need {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 100px;
+  color: #052a4d;
 }
