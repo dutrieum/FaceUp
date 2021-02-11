@@ -29,9 +29,12 @@
             
 
                 div#title_seances h1{
-                        font-size:60px;
+                        font-size:48px;
                     }
-
+                    
+                    div.parent.seances{
+                        margin-top: 24px;
+                    }
                 
                 @media screen and (max-width: 500px){
                 
