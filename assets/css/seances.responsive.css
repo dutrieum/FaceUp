@@ -20,6 +20,10 @@
                 width: 100%;
                 margin-bottom: 32px;
             }
+
+            div.child.text.seances.no_margin{
+                margin-top: 24px;
+            }
             
             @media screen and (max-width: 600px){
             
