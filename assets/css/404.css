@@ -1,5 +1,5 @@
 .p_404 h1 {
-  color: #FEA31E;
+  color: #f8b472;
   text-align: center;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
@@ -13,6 +13,7 @@
   font-weight: 300;
   font-size: 30px;
   margin-bottom: 60px;
+  color: #052a4d;
 }
 
 .p_404 {
@@ -25,11 +26,11 @@
 }
 
 div.p_404 a {
-  color: #FEA31E;
+  color: #f8b472;
   font-size: 12px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  border: solid 1px #FEA31E;
+  border: solid 1px #f8b472;
   border-radius: 30px;
   padding: 21px;
   padding-right: 32px;

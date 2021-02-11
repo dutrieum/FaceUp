@@ -12,7 +12,7 @@ div.bloc_job {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-  border-bottom: 1px solid #FEA31E;
+  border-bottom: 1px solid #f8b472;
   padding-bottom: 88px;
 }
 
@@ -27,7 +27,7 @@ div#title_job {
   font-weight: 700;
   padding-top: 80px;
   padding-bottom: 100px;
-  color: #FEA31E;
+  color: #f8b472;
   text-align: center;
   width: 100%;
 }
@@ -47,6 +47,7 @@ div#text1_job1 {
   line-height: 40px;
   font-family: 'Josefin Sans';
   font-weight: 600;
+  color: #052a4d;
 }
 
 div#text1_job2 {
@@ -64,11 +65,11 @@ div.button_job {
 }
 
 div.button_job a {
-  color: #FEA31E;
+  color: #f8b472;
   font-size: 12px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  border: solid 1px #FEA31E;
+  border: solid 1px #f8b472;
   border-radius: 30px;
   padding: 13px;
   padding-right: 32px;
@@ -85,10 +86,11 @@ div.application {
   max-width: 1212px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid #FEA31E;
+  border-bottom: 1px solid #f8b472;
   margin-top: 86px;
   padding-top: 20px;
   box-sizing: border-box;
   padding-bottom: 86px;
   margin-bottom: 110px;
+  color: #052a4d;
 }

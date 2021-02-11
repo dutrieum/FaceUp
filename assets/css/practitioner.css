@@ -1,5 +1,5 @@
 div.title_practitioner h1 {
-  color: #FEA31E;
+  color: #f8b472;
   text-align: center;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
@@ -19,11 +19,11 @@ div.button_practitioner_prices {
 }
 
 div.button_practitioner_prices a {
-  color: #FEA31E;
+  color: #f8b472;
   font-size: 12px;
   font-family: 'Josefin Sans';
   font-weight: 700;
-  border: solid 1px #FEA31E;
+  border: solid 1px #f8b472;
   border-radius: 30px;
   padding: 21px;
   padding-right: 32px;
@@ -40,10 +40,11 @@ div.title_practitioner_prices {
   max-width: 1212px;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1px solid #FEA31E;
+  border-top: 1px solid #f8b472;
   margin-top: 85px;
   padding-top: 88px;
   padding-bottom: 88px;
+  color: #052a4d;
 }
 
 .wrap_practitioner {
@@ -55,7 +56,7 @@ div.title_practitioner_prices {
 }
 
 .wrap_practitioner h2 {
-  color: #FEA31E;
+  color: #f8b472;
   font-family: 'Josefin Sans',sans-serif;
   font-weight: 700;
   font-size: 50px;
