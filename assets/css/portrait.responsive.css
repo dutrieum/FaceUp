@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px){
+
+    div.photo_portrait{
+        width: 45%;
+    }
+
+    @media screen and (max-width: 800px){
+
+        div.text_portrait{
+            width: 100%;
+            margin-bottom: 24px;
+            order: 1;
+        }
+
+        div.photo_portrait{
+            width: 100%;
+            order: 2;
+        }
+        
+
+
+
+    div.bloc1_portrait{
+
+    }
+
+}
+
+}
