@@ -17,13 +17,27 @@
             order: 2;
         }
         
+        div.text2_portrait{
 
+        }
 
+        div.bloc1_portrait{
+            padding: 0 10%;
+        }
+        div.bloc2_portrait{
+            padding: 64px 10% 0;
+        }
 
-    div.bloc1_portrait{
+        div.photo2_portrait{
+            width: 100%;
+        }
 
-    }
+        div.bloc1_portrait{
 
+        }
+        div.text2_portrait{
+
+        }
 }
 
 }
