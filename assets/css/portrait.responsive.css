@@ -42,6 +42,7 @@
         @media screen and (max-width: 600px){
         .bandeau_portrait{
             flex-wrap: wrap;
+            display: unset;
 
         }
         .picto_front_page div, .picto_front_page div:first-child, .picto_front_page div:last-child{
