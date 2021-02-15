@@ -40,7 +40,7 @@
         }
 
         @media screen and (max-width: 600px){
-        .picto_front_page{
+        .bandeau_portrait{
             flex-wrap: wrap;
 
         }
