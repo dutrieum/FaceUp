@@ -220,10 +220,7 @@ div.bandeau_portrait{
   display: flex;
   flex-wrap: wrap;
   margin-top: 19px;
-  max-width: 1216px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 140px;
+  padding-bottom: 8%;
 }
 
 div.bandeau_portrait a {
@@ -233,4 +230,7 @@ div.bandeau_portrait a {
 
 div.bandeau_portrait a img {
   display: block;
+  width: 80%;
+  margin: 0 auto;
 }
+

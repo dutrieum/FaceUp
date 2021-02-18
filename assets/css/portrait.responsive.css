@@ -39,6 +39,21 @@
             width: 100%;
         }
 
+        div.bandeau_portrait{
+            justify-content: space-evenly;
+          }
+          
+          div.bandeau_portrait a {
+            width: 50%;
+            margin-bottom: 24px;
+          }
+          
+          div.bandeau_portrait a img {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+          }
+
         @media screen and (max-width: 600px){
         .bandeau_portrait{
             flex-wrap: wrap;
