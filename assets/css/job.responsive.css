@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px){
+
+    div.photo_job{
+        width: 45%;
+    }
+
+    @media screen and (max-width: 900px){
+    
+        div.bloc_job{
+            margin: auto 56px;
+        }
+    
+        @media screen and (max-width: 600px){
+        
+            div.photo_job{
+                width: 100%;
+                margin-right: 36px;
+                order: 2;
+            }
+            div.text1_job{
+                width: 100%;
+                margin-left: auto;
+                margin-top: auto;
+                margin-bottom: 36px;
+                order: 1;
+            }
+
+            div#title_job{
+                font-size: 56px;
+            }
+            }
+        
+        }
+
+    }
+
+}
