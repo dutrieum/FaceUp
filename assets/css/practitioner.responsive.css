@@ -1,0 +1,13 @@
+@media screen and (max-width: 900px){
+
+    .wrap_practitioner{
+        display: block;
+    }
+
+    .first_column_practitioner{
+        width: 100%;
+        margin-bottom: 36px;
+
+    }
+
+}    
