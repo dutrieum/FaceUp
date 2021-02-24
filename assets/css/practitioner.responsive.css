@@ -1,5 +1,9 @@
 @media screen and (max-width: 900px){
 
+    div.title_practitioner h1{
+        font-size: 56px;
+    }
+
     .wrap_practitioner{
         display: block;
     }
