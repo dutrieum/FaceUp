@@ -36,6 +36,8 @@
     wp_enqueue_style( 'portrait-responsive', get_template_directory_uri() . '/assets/css/portrait.responsive.css', array(), '1.1');
     wp_enqueue_style( 'need-responsive', get_template_directory_uri() . '/assets/css/need.responsive.css', array(), '1.1');
     wp_enqueue_style( 'job-responsive', get_template_directory_uri() . '/assets/css/job.responsive.css', array(), '1.1');
+    wp_enqueue_style( 'practitioner-responsive', get_template_directory_uri() . '/assets/css/practitioner.responsive.css', array(), '1.1');
+
 
 
 
