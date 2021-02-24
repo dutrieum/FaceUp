@@ -11,8 +11,8 @@ div.child.text.need{
     margin-bottom: 36px;
 }
 
-div.child.text.need h2:last-child{
-    margin-top: 36px;
+div.child.text.need.no_margin{
+    margin: 0px 16px;
 }
 
 }
