@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px){
+  svg {
+    width: 70%;
+  }
+  .menu {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 8%;
+  }
+  .menu a {
+    border-right: none;
+    border-bottom: 1px solid #f8b472;
+  }
+  .menu li {
+    margin-top: 3%;
+  }
+  ul .sub-menu {
+    position: inherit;
+  }
+  ul .sub-menu li a {
+    font-size: 20px;
+  }
+  body.front-page .menu a {
+    border-right: none;
+  }
+}
