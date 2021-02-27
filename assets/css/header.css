@@ -29,6 +29,17 @@ svg {
   display: none;
 }
 
+.loader{
+	background: url('../js/logo_anime.json') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
+	cursor: wait;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
 .menu a {
   color: #f8b472;
   border-right: 1pt solid #f8b472;
