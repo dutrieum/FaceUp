@@ -19,5 +19,5 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/Faceup/wp-content/themes/faceup/assets/js/logo_anime.json'
+  path: '/faceup/wp-content/themes/FaceUp/assets/js/logo_anime.json'
 });
