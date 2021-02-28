@@ -8,3 +8,11 @@ var flkty = new Flickity( elem, {
   cellSelector: '.carousel-cell',
   prevNextButtons: false
 });
+jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('svgContainer'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/Faceup/wp-content/themes/faceup/assets/js/logo_anime.json'
+});

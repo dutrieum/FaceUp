@@ -29,9 +29,7 @@ svg {
   display: none;
 }
 
-.loader{
-	background: url('../js/logo_anime.json') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
-	cursor: wait;
+.loader {
 	height: 100%;
 	left: 0;
 	position: fixed;
