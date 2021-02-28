@@ -36,6 +36,7 @@ svg {
 	top: 0;
 	width: 100%;
 	z-index: 9999;
+  background-color: #052a4d;
 }
 
 .menu a {

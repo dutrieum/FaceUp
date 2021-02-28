@@ -8,7 +8,12 @@ var flkty = new Flickity( elem, {
   cellSelector: '.carousel-cell',
   prevNextButtons: false
 });
-jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
+jQuery(window).load(function() {
+  setTimeout(function(){
+    jQuery(".loader").fadeOut("200") },
+    3500
+  );
+});
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('svgContainer'),
   renderer: 'svg',
