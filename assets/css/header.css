@@ -29,16 +29,6 @@ svg {
   display: none;
 }
 
-.loader {
-	height: 100%;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 9999;
-  background-color: #052a4d;
-}
-
 .menu a {
   color: #f8b472;
   border-right: 1pt solid #f8b472;
