@@ -25,6 +25,10 @@
 
     @media screen and (max-width: 800px){
 
+        .loader {
+          display: none;
+        }
+
         .method_front_page .pictures_front_page img:first-child{
             left: 18%;
             height:300px;
@@ -76,7 +80,7 @@
                 .method_front_page .pictures_front_page img:first-child{
                     height: 275px;
                 }
-    
+
                 .method_front_page .pictures_front_page img:last-child{
                     height: 275px;
                     margin-top: 100px;
