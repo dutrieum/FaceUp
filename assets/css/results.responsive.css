@@ -7,4 +7,23 @@
     div.quote_results::after{
         content: '';
     }
+
+    div.photo_results{
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    div.photo_results img{
+        width: 45%;
+    }
+
+    div.before_after_results p.before_results {
+        padding-left:15%;
+      }
+      
+      div.before_after_results p.after_results {
+        padding-right:15%;
+      }
 }    
