@@ -8,7 +8,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <title>Faciology</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400&family=Josefin+Sans:ital,wght@0,300;0,600;0,700;1,100&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
