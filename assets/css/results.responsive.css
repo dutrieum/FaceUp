@@ -41,6 +41,10 @@
             padding: 0;
         }
 
+        div.photo_general_results{
+            margin-top: 40px;
+            padding-top: 40px;
+        }
 
 
       }
