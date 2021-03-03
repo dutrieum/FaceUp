@@ -15,6 +15,10 @@
         overflow: hidden;
     }
 
+    div.photo_results{
+        width: 100%;
+    }
+
     div.photo_results img{
         width: 45%;
     }
