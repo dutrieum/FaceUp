@@ -30,4 +30,18 @@
       div.before_after_results p.after_results {
         padding-right:15%;
       }
+
+      @media screen and (max-width: 500px){
+
+        div.quote_results p{
+            padding:0 10%;
+        }
+
+        div.quote_results{
+            padding: 0;
+        }
+
+
+
+      }
 }    
