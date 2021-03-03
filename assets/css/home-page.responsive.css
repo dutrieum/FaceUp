@@ -62,6 +62,29 @@
                 margin-right: 0px;
                 width: 100%;
             }
+
+            .method_front_page .pictures_front_page img:first-child{
+                left: 10%;
+            }
+
+            .method_front_page .pictures_front_page img:last-child{
+                left: -10%;
+            }
+
+            @media screen and (max-width: 500px){
+
+                .method_front_page .pictures_front_page img:first-child{
+                    height: 275px;
+                }
+    
+                .method_front_page .pictures_front_page img:last-child{
+                    height: 275px;
+                    margin-top: 100px;
+                    left: -20px;
+                }
+
+
+            }
         }
     }
 }
