@@ -6,6 +6,11 @@ Template Name: results
 
 <?php
   get_header();
+
+  $image_1 = get_field('image1_results');
+  $image_2 = get_field('image2_results');
+  $image_3 = get_field('image3_results');
+  $image_4 = get_field('image4_results');
 ?>
 
 <section>
@@ -26,8 +31,8 @@ Template Name: results
       </div>
       <div class="photo_general_results">
         <div class="photo_results">
-          <img class="img_results" src="<?php echo(get_field('image1_results')['url']); ?>"/>
-          <img class="img_results" src="<?php echo(get_field('image2_results')['url']); ?>"/>
+          <img class="img_results" src="<?php echo($image_1['sizes']['instagram-size']); ?>"/>
+          <img class="img_results" src="<?php echo($image_2['sizes']['instagram-size']); ?>"/>
         </div>
         <div class="before_after_results">
           <p class="before_results"><?php the_field('before1_results'); ?></p>
@@ -42,8 +47,8 @@ Template Name: results
       </div>
       <div class="photo_general_results">
         <div class="photo_results">
-          <img class="img_results" src="<?php echo(get_field('image3_results')['url']); ?>"/>
-          <img class="img_results" src="<?php echo(get_field('image4_results')['url']); ?>"/>
+          <img class="img_results" src="<?php echo($image_3['sizes']['instagram-size']); ?>"/>
+          <img class="img_results" src="<?php echo($image_4['sizes']['instagram-size']); ?>"/>
         </div>
         <div class="before_after_results">
           <p class="before_results" id="beforeresults"><?php the_field('before2_results'); ?></p>
