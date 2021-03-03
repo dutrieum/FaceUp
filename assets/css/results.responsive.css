@@ -46,6 +46,10 @@
             padding-top: 40px;
         }
 
+        div.title_results h1{
+            font-size: 56px;
+        }
+
 
       }
 }    
