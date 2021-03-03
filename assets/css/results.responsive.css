@@ -1,0 +1,7 @@
+@media screen and (max-width: 800px){
+
+    div.quote_results:after div.quote_results:before{
+        display: none;
+    }
+
+}    
