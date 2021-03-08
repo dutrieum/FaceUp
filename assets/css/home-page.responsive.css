@@ -19,8 +19,22 @@
     .introduction_front_page p{
         width: 100%;
     }
+
+    .quotation_front_page {
+      padding-bottom: 15%;
+    }
+
+    .quotation_front_page h2 {
+      margin-top: 15%;
+    }
+
     .quotation_front_page a{
         left: 0%;
+    }
+
+    .border_quotation_front_page:before {
+      top: -10%;
+      left: 3%;
     }
 
     @media screen and (max-width: 800px){
@@ -68,7 +82,7 @@
             }
 
             .method_front_page .pictures_front_page img:first-child{
-                left: 10%;
+                left: 0%;
             }
 
             .method_front_page .pictures_front_page img:last-child{
@@ -84,7 +98,7 @@
                 .method_front_page .pictures_front_page img:last-child{
                     height: 275px;
                     margin-top: 100px;
-                    left: -20px;
+                    left: -117px;
                 }
 
 
