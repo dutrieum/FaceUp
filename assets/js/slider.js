@@ -1,4 +1,5 @@
 var elem = document.querySelector('.main-carousel');
+var url = jQuery('.loader').attr('data-url');
 var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
@@ -19,5 +20,7 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/~dutrieum/faceup/wp-content/themes/FaceUp/assets/js/logo_anime.json'
+  path: url + '/assets/js/logo_anime.json'
 });
+
+console.log(url + 'assets/js/logo_anime.json');

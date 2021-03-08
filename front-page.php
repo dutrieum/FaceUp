@@ -17,7 +17,7 @@
 ?>
 
 <main>
-  <div class="loader" id="svgContainer"></div>
+  <div class="loader" id="svgContainer" data-url="<?php echo get_template_directory_uri() ?>"></div>
   <div class="slider">
     <div class="main-carousel">
       <div class="static_text_slider"><?php the_field('slider_text'); ?></div>
