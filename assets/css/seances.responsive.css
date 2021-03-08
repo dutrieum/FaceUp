@@ -1,11 +1,17 @@
 @media screen and (max-width: 1350px){
-            
+
     div.citation.seances:after, div.citation.seances:before{
         display:none;
     }
 
         @media screen and (max-width: 800px){
-            
+
+            div#title_seances h1 {
+              padding: 0;
+              margin-top: 10%;
+              margin-bottom: 10%;
+            }
+
             div.child.photo.seances{
                 width: 100%;
                 order: 2;
@@ -15,7 +21,7 @@
                 order: 1;
                 margin-bottom:32px;
             }
-    
+
             div.child.text.seances{
                 width: 100%;
                 margin-bottom: 32px;
@@ -24,28 +30,32 @@
             div.child.text.seances.no_margin{
                 margin-top: 24px;
             }
-            
+
+            div.citation.seances {
+              padding-bottom: 10%;
+            }
+
             @media screen and (max-width: 600px){
-            
+
 
                 div#title_seances h1{
                         font-size:48px;
                     }
-                    
+
                     div.parent.seances{
                         margin-top: 24px;
                     }
-                    
-                
+
+
                 @media screen and (max-width: 500px){
-                
+
 
                     div#title_seances h1{
                     font-size:48px;
                     }
-                    
+
                 }
-    
+
             }
 
         }
