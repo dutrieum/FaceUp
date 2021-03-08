@@ -22,5 +22,3 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path: url + '/assets/js/logo_anime.json'
 });
-
-console.log(url + 'assets/js/logo_anime.json');
