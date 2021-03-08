@@ -33,7 +33,7 @@
   position: relative;
 }
 
-.slider .static_text_slider {
+.static_text_slider {
   position: absolute;
   font-size: 60px;
   font-family: 'Josefin Sans';
@@ -45,7 +45,7 @@
   margin-top: 315px;
 }
 
-.slider .static_button_slider a {
+.static_button_slider a {
   position: absolute;
   color: #f8b472;
   font-size: 18px;
@@ -61,6 +61,10 @@
   margin-top: 555px;
   margin-left: calc( 50% - 100px );
   background-color: #052a4d;
+}
+
+.front_header {
+	display: none;
 }
 
 .method_front_page {

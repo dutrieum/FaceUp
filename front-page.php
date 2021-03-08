@@ -27,6 +27,9 @@
       <?php endforeach; ?>
     </div>
   </div>
+  <div class="front_header">
+    <img src="<?php echo($image['sizes']['slider-size']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"/>
+  </div>
   <div class="wrap_front_page">
     <div class="method_front_page">
       <div class="pictures_front_page">
