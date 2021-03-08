@@ -6,6 +6,8 @@ Template Name: Job
 
 <?php
   get_header();
+
+  $button_job = get_field('job_button');
 ?>
 
 <div class="bloc_job">
@@ -23,7 +25,7 @@ Template Name: Job
       <div id="text1_job2">
         <p><?php the_field('description_job'); ?></p>
         <div class="button_job">
-            <a href="<?php echo(get_permalink($button->ID)); ?>">contactez-nous</a>
+            <a href="<?php echo($button_job); ?>">contactez-nous</a>
         </div>
       </div>
     </div>
