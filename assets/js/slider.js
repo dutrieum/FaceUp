@@ -1,4 +1,5 @@
 var elem = document.querySelector('.main-carousel');
+var $ = jQuery;
 var url = jQuery('.loader').attr('data-url');
 var flkty = new Flickity( elem, {
   // options
@@ -22,3 +23,8 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path: url + '/assets/js/logo_anime.json'
 });
+$('a[href^="mailto:"]').each(function() {
+            let at = new RegExp('arobaseat', 'g');
+            $(this).attr('href', $(this).attr('href').replace(at, '@'));
+            $(this).text($(this).text().replace(at, '@'));
+        });

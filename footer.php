@@ -1,8 +1,9 @@
+      <?php $email = get_field('email', 'option'); ?>
       <footer>
         <div class="wrap_footer">
           <div id="contact">
             <p><?php the_field('phone', 'option'); ?></p>
-            <p><?php the_field('email', 'option'); ?></p>
+            <a href="mailto:<?php echo(str_replace('@', 'arobaseat', $email)); ?>"><?php echo(str_replace('@', 'arobaseat', $email)); ?></a>
             <?php $mentions = get_field('mentions', 'option');?>
             <?php $button = get_field('button', 'option');?>
           </div>
