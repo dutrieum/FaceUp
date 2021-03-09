@@ -68,6 +68,7 @@ div.title_practitioner_prices {
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 3%;
 }
 
 .first_column_practitioner {
@@ -76,7 +77,6 @@ div.title_practitioner_prices {
 
 .first_column_practitioner a {
   font-family: 'Inria Serif', serif;
-  margin-top: 15%;
 }
 
 .second_column_practitioner {
