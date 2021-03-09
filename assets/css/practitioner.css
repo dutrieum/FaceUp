@@ -74,6 +74,11 @@ div.title_practitioner_prices {
   width: 50%;
 }
 
+.first_column_practitioner a {
+  font-family: 'Inria Serif', serif;
+  margin-top: 15%;
+}
+
 .second_column_practitioner {
   width: 50%;
 }

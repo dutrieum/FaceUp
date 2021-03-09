@@ -19,10 +19,12 @@
     <div class="first_column_practitioner">
       <h2><?php the_field('practitioner_first_subtitle'); ?></h2>
       <p><?php the_field('practitioner_first_text'); ?></p>
+      <a href="http://faciology.fr"><?php the_field('link_faciology_national'); ?></a>
     </div>
     <div class="first_column_practitioner">
       <h2><?php the_field('practitioner_second_subtitle'); ?></h2>
       <p><?php the_field('practitioner_second_text'); ?></p>
+      <a href="https://www.doctolib.fr/osteopathe/saint-alban-leysse/claire-berthon"><?php the_field('link_doctolib'); ?></a>
     </div>
   </div>
   <div class="title_practitioner_prices">
